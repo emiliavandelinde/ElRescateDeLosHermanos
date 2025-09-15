@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 239,
+    "build": 240,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -492,6 +492,30 @@
         "metadata": "",
         "name": "lobo.png",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel02.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel02.json",
+        "userAdded": false
+      },
+      {
+        "file": "suelo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "suelo2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "SueloNivel02.json",
+        "kind": "tileset",
+        "metadata": "",
+        "name": "SueloNivel02.json",
         "userAdded": false
       }
     ],
@@ -2931,7 +2955,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6385789179380362,
+        "zoomFactor": 0.7537544073501793,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4356,15 +4380,717 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7291666666666666,
+        "zoomFactor": 0.6385789179380336,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 237,
+          "keepRatio": true,
+          "layer": "Fondo1",
+          "name": "FondoBosque",
+          "persistentUuid": "bf8970ac-84dd-42af-b6ce-e322aea270d6",
+          "width": 204,
+          "x": -156,
+          "y": -96,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 237,
+          "keepRatio": true,
+          "layer": "Fondo2",
+          "name": "FondoBosque",
+          "persistentUuid": "98d1ef04-c873-4073-aef3-a31d59a12f89",
+          "width": 204,
+          "x": -156,
+          "y": -96,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 237,
+          "keepRatio": true,
+          "layer": "Fondo3",
+          "name": "FondoBosque",
+          "persistentUuid": "41a8d191-2323-4934-a0b6-04edcc552f2f",
+          "width": 204,
+          "x": -156,
+          "y": -96,
+          "zOrder": 4,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 237,
+          "keepRatio": true,
+          "layer": "Fondo4",
+          "name": "FondoBosque",
+          "persistentUuid": "b86d7b52-79cf-40ed-95da-6b1aef5d1a38",
+          "width": 204,
+          "x": -156,
+          "y": -96,
+          "zOrder": 5,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 237,
+          "keepRatio": true,
+          "layer": "Fondo5",
+          "name": "FondoBosque",
+          "persistentUuid": "9c38a410-9589-4987-afdf-be9be790b46d",
+          "width": 204,
+          "x": -156,
+          "y": -96,
+          "zOrder": 6,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 01",
+          "name": "FondoBosque",
+          "persistentUuid": "66f4e139-375d-49d6-9069-c7eac41154b1",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 02",
+          "name": "FondoBosque",
+          "persistentUuid": "305c001a-dbb0-412a-aa6c-4a4e8ef96a65",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 03",
+          "name": "FondoBosque",
+          "persistentUuid": "7246bce1-cf93-441c-a225-76da2df141b3",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 04",
+          "name": "FondoBosque",
+          "persistentUuid": "1a7c92fa-e472-46b7-96c2-70419000cb62",
+          "width": 0,
+          "x": 0,
+          "y": 1,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 05",
+          "name": "FondoBosque",
+          "persistentUuid": "6312cd66-b407-419a-85e6-07ecea0617c3",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 01",
+          "name": "FondoBosque",
+          "persistentUuid": "d817bbf7-0f39-43bf-af82-c875a3d386fc",
+          "width": 0,
+          "x": 959,
+          "y": 0,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 02",
+          "name": "FondoBosque",
+          "persistentUuid": "16d40146-8538-4e4f-8f44-3215e810e44c",
+          "width": 0,
+          "x": 959,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 03",
+          "name": "FondoBosque",
+          "persistentUuid": "be603ba3-c2e6-47da-b052-8d7ae1f96b77",
+          "width": 0,
+          "x": 959,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 04",
+          "name": "FondoBosque",
+          "persistentUuid": "403c017a-870f-4c6e-8773-2df1aa31bff6",
+          "width": 0,
+          "x": 959,
+          "y": 1,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 05",
+          "name": "FondoBosque",
+          "persistentUuid": "4ddb9174-c4f5-4715-827a-4af5333ffd11",
+          "width": 0,
+          "x": 959,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 01",
+          "name": "FondoBosque",
+          "persistentUuid": "42942a8f-cb73-43f7-b01c-5a47a0466a07",
+          "width": 0,
+          "x": -960,
+          "y": 0,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 02",
+          "name": "FondoBosque",
+          "persistentUuid": "7641b38e-d09c-4e79-84b9-2b1ab247e5d8",
+          "width": 0,
+          "x": -960,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 03",
+          "name": "FondoBosque",
+          "persistentUuid": "0c4f5584-a333-4283-a6cc-12676947ddb7",
+          "width": 0,
+          "x": -960,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 04",
+          "name": "FondoBosque",
+          "persistentUuid": "e644a015-a4aa-497e-bd4a-da92caea375c",
+          "width": 0,
+          "x": -960,
+          "y": 1,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background 05",
+          "name": "FondoBosque",
+          "persistentUuid": "ea46ca87-7477-4287-a1cb-e44ef5754414",
+          "width": 0,
+          "x": -960,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 640,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SueloNivel02",
+          "persistentUuid": "47a2bb84-5327-4219-892d-23b8358fab5e",
+          "width": 853.3333333333333,
+          "x": 77,
+          "y": -25,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 640,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColSueloNivel02",
+          "persistentUuid": "d50baad2-a82e-4d69-8737-ca632b636d2f",
+          "width": 853.3333333333331,
+          "x": 78,
+          "y": -24,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Niño",
+          "persistentUuid": "b80dcceb-2e72-456f-a2bc-ce366672866c",
+          "width": 0,
+          "x": 96,
+          "y": 263,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Cristal",
+          "persistentUuid": "5575e109-691b-4a1a-a986-bd84f70de6ca",
+          "width": 0,
+          "x": 723,
+          "y": 106,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Portal",
+          "persistentUuid": "cf3bcfce-0e5a-4cdd-b31c-92ced39c242d",
+          "width": 0,
+          "x": 867,
+          "y": 38,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "d3d3fe97-b639-47e7-a1e2-0a135083aaa1",
+          "width": 0,
+          "x": 148,
+          "y": 283,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "5aa56277-94c8-4b0a-9e20-8cf48099ca1d",
+          "width": 0,
+          "x": 501,
+          "y": 325,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "2484ea92-11f8-4b44-865d-773542067551",
+          "width": 0,
+          "x": 674,
+          "y": 151,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "dec98b74-a026-4a37-9150-5575368d44fd",
+          "width": 0,
+          "x": 773,
+          "y": 65,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "a7854aeb-4b57-43ce-9b03-1c5b5545ebca",
+          "width": 0,
+          "x": 208,
+          "y": 427,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Levitadora",
+          "persistentUuid": "7dce09cb-381f-4c1a-815e-e1bf0c33b1b1",
+          "width": 0,
+          "x": 424,
+          "y": 458,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Levitadora",
+          "persistentUuid": "a5601d33-1308-4238-bce8-eced0c388520",
+          "width": 0,
+          "x": 554,
+          "y": 339,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Debil",
+          "persistentUuid": "764711ed-6cbd-4915-a5fa-0a39756898d8",
+          "width": 0,
+          "x": 627,
+          "y": 258,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "52ee0e78-a2e7-4997-b21d-3cbc6dc0392f",
+          "width": 0,
+          "x": 587,
+          "y": 272,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "SueloNivel02",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel02.json",
+            "tilesetJsonFile": "SueloNivel02.json",
+            "tilemapAtlasImage": "suelo.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColSueloNivel02",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel02.json",
+            "tilesetJsonFile": "SueloNivel02.json",
+            "collisionMaskTag": "PlataformaNivel02",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "SueloNivel02"
+          },
+          {
+            "objectName": "ColSueloNivel02"
+          }
+        ]
       },
       "events": [
         {
@@ -4410,6 +5136,271 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background 01",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background 02",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background 03",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background 04",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background 05",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
