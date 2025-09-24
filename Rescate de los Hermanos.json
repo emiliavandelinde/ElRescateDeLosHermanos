@@ -597,6 +597,14 @@
         "name": "Hongo_Normal.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "sueloNivel3.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "sueloNivel3.json",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6092,7 +6100,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2978134119174854,
+        "zoomFactor": 1,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6191,8 +6199,8 @@
           "name": "FondoBosque",
           "persistentUuid": "1a38c451-9194-431e-bde1-46444a19d43c",
           "width": 0,
-          "x": 3,
-          "y": 3,
+          "x": 70,
+          "y": 20,
           "zOrder": 4,
           "numberProperties": [
             {
@@ -6517,11 +6525,99 @@
           ],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SueloNivel3_Colision",
+          "persistentUuid": "1d709597-b9b0-46ac-9f9f-fdc8aca400c0",
+          "width": 0,
+          "x": 3,
+          "y": -109,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Niño",
+          "persistentUuid": "e006bc12-118e-47c0-a9fd-230fd2166996",
+          "width": 0,
+          "x": 36,
+          "y": 387,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "SueloNivel3",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "sueloNivel3.json",
+            "tilesetJsonFile": "suelo.json",
+            "tilemapAtlasImage": "suelo.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "SueloNivel3_Colision",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "sueloNivel3.json",
+            "tilesetJsonFile": "suelo.json",
+            "collisionMaskTag": "suelo",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "SueloNivel3"
+          },
+          {
+            "objectName": "SueloNivel3_Colision"
+          }
+        ]
       },
       "events": [
         {
