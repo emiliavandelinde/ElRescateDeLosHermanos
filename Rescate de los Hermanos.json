@@ -517,6 +517,86 @@
         "metadata": "",
         "name": "SueloNivel02.json",
         "userAdded": false
+      },
+      {
+        "file": "lobo2222.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lobo2222.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lobo2223.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lobo2223.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Muerte2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Muerte2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fantasma.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantasma.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bateria2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"bateria2.png\",\"extension\":\".png\"}",
+        "name": "bateria2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "plataforma_levitadora.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plataforma_levitadora.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "plataforma_debil.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plataforma_debil.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "murcielago2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "murcielago2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Muerte3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Muerte3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Hongo_Normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hongo_Normal.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2322,17 +2402,16 @@
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "PlataformaLevitadora",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite6",
+                  "image": "plataforma_levitadora.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2348,19 +2427,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 2,
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 62,
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 62,
                         "y": 32
                       },
                       {
-                        "x": 0,
+                        "x": 2,
                         "y": 32
                       }
                     ]
@@ -2391,17 +2470,16 @@
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite8",
+                  "image": "plataforma_debil.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2417,20 +2495,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 2,
                         "y": 0
                       },
                       {
-                        "x": 32,
+                        "x": 62,
                         "y": 0
                       },
                       {
-                        "x": 32,
-                        "y": 16
+                        "x": 62,
+                        "y": 29
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 2,
+                        "y": 29
                       }
                     ]
                   ]
@@ -2460,17 +2538,16 @@
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite9",
+                  "image": "Hongo_Normal.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2486,20 +2563,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 3,
+                        "y": 5
                       },
                       {
-                        "x": 32,
-                        "y": 0
+                        "x": 28,
+                        "y": 5
                       },
                       {
-                        "x": 32,
-                        "y": 16
+                        "x": 28,
+                        "y": 28
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 3,
+                        "y": 28
                       }
                     ]
                   ]
@@ -2531,6 +2608,7 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 150,
@@ -2567,7 +2645,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\recursos juego hermanos-20250912T021653Z-1-001\\recursos juego hermanos\\fantasma.png",
+                  "image": "fantasma.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2710,12 +2788,33 @@
       "name": "Murcielago",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Direccion",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "AlturaBase",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "DistanciaVuelo",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "Volar",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2761,21 +2860,108 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Muerte",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Muerte3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 9
+                      },
+                      {
+                        "x": 48,
+                        "y": 9
+                      },
+                      {
+                        "x": 48,
+                        "y": 38
+                      },
+                      {
+                        "x": 1,
+                        "y": 38
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "Lobo",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "PuedeMoverse",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Direccion",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 150,
+          "canGoDownFromJumpthru": false,
+          "deceleration": 300,
+          "ignoreDefaultControls": true,
+          "maxSpeed": 30,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": false,
+          "gravity": 300,
+          "jumpSpeed": 250,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 300,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "Caminar",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2784,7 +2970,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "lobo.png",
+                  "image": "lobo2222.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2801,19 +2987,129 @@
                     [
                       {
                         "x": 0,
-                        "y": 9
+                        "y": 12
                       },
                       {
-                        "x": 46,
-                        "y": 9
+                        "x": 61,
+                        "y": 12
                       },
                       {
-                        "x": 46,
-                        "y": 41
+                        "x": 61,
+                        "y": 55
                       },
                       {
                         "x": 0,
-                        "y": 41
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Muerte",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Muerte2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 12
+                      },
+                      {
+                        "x": 61,
+                        "y": 12
+                      },
+                      {
+                        "x": 61,
+                        "y": 55
+                      },
+                      {
+                        "x": 0,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bateria",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Bateria",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bateria2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 11
+                      },
+                      {
+                        "x": 27,
+                        "y": 11
+                      },
+                      {
+                        "x": 27,
+                        "y": 20
+                      },
+                      {
+                        "x": 7,
+                        "y": 20
                       }
                     ]
                   ]
@@ -2854,6 +3150,9 @@
           },
           {
             "objectName": "Portal"
+          },
+          {
+            "objectName": "Bateria"
           }
         ]
       },
@@ -2870,7 +3169,7 @@
             "objectName": "Murcielago"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "Lobo"
           }
         ]
       },
@@ -2955,7 +3254,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7537544073501793,
+        "zoomFactor": 0.6197916666666714,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3007,7 +3306,13 @@
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Variable",
+              "type": "number",
+              "value": 0
+            }
+          ]
         },
         {
           "angle": 0,
@@ -3239,7 +3544,7 @@
           "name": "FondoBosque",
           "persistentUuid": "83e1961b-a9ed-4a0d-95c8-65089fb65763",
           "width": 0,
-          "x": -915,
+          "x": -916,
           "y": 0,
           "zOrder": 2,
           "numberProperties": [],
@@ -3255,7 +3560,7 @@
           "name": "FondoBosque",
           "persistentUuid": "c413657f-8175-4c53-bec0-9d73119ec4ac",
           "width": 0,
-          "x": -915,
+          "x": -916,
           "y": 0,
           "zOrder": 3,
           "numberProperties": [
@@ -3276,7 +3581,7 @@
           "name": "FondoBosque",
           "persistentUuid": "19742d0c-ba40-47db-bd7d-503c73e45ea7",
           "width": 0,
-          "x": -915,
+          "x": -916,
           "y": 0,
           "zOrder": 4,
           "numberProperties": [
@@ -3297,7 +3602,7 @@
           "name": "FondoBosque",
           "persistentUuid": "fb43de72-fec2-43bd-b447-2b48b312a757",
           "width": 0,
-          "x": -915,
+          "x": -916,
           "y": 0,
           "zOrder": 5,
           "numberProperties": [
@@ -3318,7 +3623,7 @@
           "name": "FondoBosque",
           "persistentUuid": "8d9bef63-23ec-4b57-a245-9e4cfae02aff",
           "width": 0,
-          "x": -915,
+          "x": -916,
           "y": 0,
           "zOrder": 6,
           "numberProperties": [
@@ -3339,7 +3644,7 @@
           "name": "FondoBosque",
           "persistentUuid": "88a8813c-94a6-497e-a25d-15a6b590d446",
           "width": 0,
-          "x": -915,
+          "x": -916,
           "y": 0,
           "zOrder": 6,
           "numberProperties": [
@@ -3457,8 +3762,8 @@
           "name": "Cristal",
           "persistentUuid": "c6861e07-4980-4b4a-aa64-262f5926c67d",
           "width": 0,
-          "x": 527,
-          "y": 235,
+          "x": 530,
+          "y": 230,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -3542,8 +3847,8 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "bd6a69db-b7ea-4892-b6d0-3c19a3f90944",
           "width": 0,
-          "x": 881,
-          "y": 346,
+          "x": 900,
+          "y": 345,
           "zOrder": 104,
           "numberProperties": [
             {
@@ -3616,8 +3921,8 @@
           "name": "Plataforma_Trampolin",
           "persistentUuid": "c85ac296-fa66-40bf-a212-66f5b61d6990",
           "width": 0,
-          "x": 400,
-          "y": 320,
+          "x": 390,
+          "y": 308,
           "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
@@ -3694,6 +3999,60 @@
               "value": 3
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Lobo",
+          "persistentUuid": "0113ce73-8101-4c3e-b7e2-1d6acf55d55b",
+          "width": 0,
+          "x": 478,
+          "y": 219,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "6c976d23-0437-42e7-a946-d096aafc95b4",
+          "width": 0,
+          "x": 840,
+          "y": 258,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "DistanciaVuelo",
+              "type": "number",
+              "value": 150
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Posicion_Cristal",
+          "persistentUuid": "bf0cdc20-d289-455e-a1a5-7cef7934c485",
+          "width": 0,
+          "x": 530,
+          "y": 230,
+          "zOrder": 117,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -3840,6 +4199,20 @@
             "includeConfig": 0
           },
           "target": "Enemigo Fantasma"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Enemigo Lobo"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Enemigo Murcielago"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -4361,15 +4734,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 46,
       "disableInputWhenNotFocused": true,
       "mangledName": "Nivel_322",
       "name": "Nivel 2",
-      "r": 209,
+      "r": 35,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 29,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -4380,7 +4753,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6385789179380336,
+        "zoomFactor": 0.8370998221031276,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4388,115 +4761,10 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 237,
-          "keepRatio": true,
-          "layer": "Fondo1",
-          "name": "FondoBosque",
-          "persistentUuid": "bf8970ac-84dd-42af-b6ce-e322aea270d6",
-          "width": 204,
-          "x": -156,
-          "y": -96,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 237,
-          "keepRatio": true,
-          "layer": "Fondo2",
-          "name": "FondoBosque",
-          "persistentUuid": "98d1ef04-c873-4073-aef3-a31d59a12f89",
-          "width": 204,
-          "x": -156,
-          "y": -96,
-          "zOrder": 3,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 237,
-          "keepRatio": true,
-          "layer": "Fondo3",
-          "name": "FondoBosque",
-          "persistentUuid": "41a8d191-2323-4934-a0b6-04edcc552f2f",
-          "width": 204,
-          "x": -156,
-          "y": -96,
-          "zOrder": 4,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 2
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 237,
-          "keepRatio": true,
-          "layer": "Fondo4",
-          "name": "FondoBosque",
-          "persistentUuid": "b86d7b52-79cf-40ed-95da-6b1aef5d1a38",
-          "width": 204,
-          "x": -156,
-          "y": -96,
-          "zOrder": 5,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 3
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 237,
-          "keepRatio": true,
-          "layer": "Fondo5",
-          "name": "FondoBosque",
-          "persistentUuid": "9c38a410-9589-4987-afdf-be9be790b46d",
-          "width": 204,
-          "x": -156,
-          "y": -96,
-          "zOrder": 6,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 4
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 01",
+          "layer": "Fondo1",
           "name": "FondoBosque",
           "persistentUuid": "66f4e139-375d-49d6-9069-c7eac41154b1",
           "width": 0,
@@ -4512,7 +4780,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 02",
+          "layer": "Fondo2",
           "name": "FondoBosque",
           "persistentUuid": "305c001a-dbb0-412a-aa6c-4a4e8ef96a65",
           "width": 0,
@@ -4533,7 +4801,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 03",
+          "layer": "Fondo3",
           "name": "FondoBosque",
           "persistentUuid": "7246bce1-cf93-441c-a225-76da2df141b3",
           "width": 0,
@@ -4554,7 +4822,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 04",
+          "layer": "Fondo4",
           "name": "FondoBosque",
           "persistentUuid": "1a7c92fa-e472-46b7-96c2-70419000cb62",
           "width": 0,
@@ -4575,7 +4843,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 05",
+          "layer": "Fondo5",
           "name": "FondoBosque",
           "persistentUuid": "6312cd66-b407-419a-85e6-07ecea0617c3",
           "width": 0,
@@ -4596,7 +4864,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 01",
+          "layer": "Fondo1",
           "name": "FondoBosque",
           "persistentUuid": "d817bbf7-0f39-43bf-af82-c875a3d386fc",
           "width": 0,
@@ -4612,7 +4880,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 02",
+          "layer": "Fondo2",
           "name": "FondoBosque",
           "persistentUuid": "16d40146-8538-4e4f-8f44-3215e810e44c",
           "width": 0,
@@ -4633,7 +4901,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 03",
+          "layer": "Fondo3",
           "name": "FondoBosque",
           "persistentUuid": "be603ba3-c2e6-47da-b052-8d7ae1f96b77",
           "width": 0,
@@ -4654,7 +4922,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 04",
+          "layer": "Fondo4",
           "name": "FondoBosque",
           "persistentUuid": "403c017a-870f-4c6e-8773-2df1aa31bff6",
           "width": 0,
@@ -4675,7 +4943,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 05",
+          "layer": "Fondo5",
           "name": "FondoBosque",
           "persistentUuid": "4ddb9174-c4f5-4715-827a-4af5333ffd11",
           "width": 0,
@@ -4696,7 +4964,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 01",
+          "layer": "Fondo1",
           "name": "FondoBosque",
           "persistentUuid": "42942a8f-cb73-43f7-b01c-5a47a0466a07",
           "width": 0,
@@ -4712,7 +4980,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 02",
+          "layer": "Fondo2",
           "name": "FondoBosque",
           "persistentUuid": "7641b38e-d09c-4e79-84b9-2b1ab247e5d8",
           "width": 0,
@@ -4733,7 +5001,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 03",
+          "layer": "Fondo3",
           "name": "FondoBosque",
           "persistentUuid": "0c4f5584-a333-4283-a6cc-12676947ddb7",
           "width": 0,
@@ -4754,7 +5022,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 04",
+          "layer": "Fondo4",
           "name": "FondoBosque",
           "persistentUuid": "e644a015-a4aa-497e-bd4a-da92caea375c",
           "width": 0,
@@ -4775,7 +5043,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Background 05",
+          "layer": "Fondo5",
           "name": "FondoBosque",
           "persistentUuid": "ea46ca87-7477-4287-a1cb-e44ef5754414",
           "width": 0,
@@ -4796,13 +5064,12 @@
           "customSize": true,
           "depth": 0,
           "height": 640,
-          "keepRatio": true,
           "layer": "",
           "name": "SueloNivel02",
           "persistentUuid": "47a2bb84-5327-4219-892d-23b8358fab5e",
-          "width": 853.3333333333333,
-          "x": 77,
-          "y": -25,
+          "width": 960,
+          "x": 0,
+          "y": -80,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -4811,15 +5078,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
+          "depth": 1,
           "height": 640,
-          "keepRatio": true,
           "layer": "",
           "name": "ColSueloNivel02",
           "persistentUuid": "d50baad2-a82e-4d69-8737-ca632b636d2f",
-          "width": 853.3333333333331,
-          "x": 78,
-          "y": -24,
+          "width": 960,
+          "x": 0,
+          "y": -80,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -4834,9 +5100,9 @@
           "name": "Niño",
           "persistentUuid": "b80dcceb-2e72-456f-a2bc-ce366672866c",
           "width": 0,
-          "x": 96,
-          "y": 263,
-          "zOrder": 14,
+          "x": 23,
+          "y": 213,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4850,8 +5116,8 @@
           "name": "Cristal",
           "persistentUuid": "5575e109-691b-4a1a-a986-bd84f70de6ca",
           "width": 0,
-          "x": 723,
-          "y": 106,
+          "x": 726,
+          "y": 61,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -4866,9 +5132,9 @@
           "name": "Portal",
           "persistentUuid": "cf3bcfce-0e5a-4cdd-b31c-92ced39c242d",
           "width": 0,
-          "x": 867,
-          "y": 38,
-          "zOrder": 16,
+          "x": 875,
+          "y": -13,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4882,8 +5148,8 @@
           "name": "Dulce",
           "persistentUuid": "d3d3fe97-b639-47e7-a1e2-0a135083aaa1",
           "width": 0,
-          "x": 148,
-          "y": 283,
+          "x": 80,
+          "y": 217,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -4898,8 +5164,8 @@
           "name": "Dulce",
           "persistentUuid": "5aa56277-94c8-4b0a-9e20-8cf48099ca1d",
           "width": 0,
-          "x": 501,
-          "y": 325,
+          "x": 425,
+          "y": 264,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -4914,8 +5180,8 @@
           "name": "Dulce",
           "persistentUuid": "2484ea92-11f8-4b44-865d-773542067551",
           "width": 0,
-          "x": 674,
-          "y": 151,
+          "x": 617,
+          "y": 158,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -4930,8 +5196,8 @@
           "name": "Dulce",
           "persistentUuid": "dec98b74-a026-4a37-9150-5575368d44fd",
           "width": 0,
-          "x": 773,
-          "y": 65,
+          "x": 672,
+          "y": 98,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -4946,12 +5212,18 @@
           "name": "Murcielago",
           "persistentUuid": "a7854aeb-4b57-43ce-9b03-1c5b5545ebca",
           "width": 0,
-          "x": 208,
-          "y": 427,
+          "x": 214,
+          "y": 224,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "DistanciaVuelo",
+              "type": "number",
+              "value": 150
+            }
+          ]
         },
         {
           "angle": 0,
@@ -4962,8 +5234,8 @@
           "name": "Plataforma_Levitadora",
           "persistentUuid": "7dce09cb-381f-4c1a-815e-e1bf0c33b1b1",
           "width": 0,
-          "x": 424,
-          "y": 458,
+          "x": 358,
+          "y": 427,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -4978,12 +5250,18 @@
           "name": "Plataforma_Levitadora",
           "persistentUuid": "a5601d33-1308-4238-bce8-eced0c388520",
           "width": 0,
-          "x": 554,
-          "y": 339,
+          "x": 516,
+          "y": 201,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Velocidad",
+              "type": "number",
+              "value": 0.5
+            }
+          ]
         },
         {
           "angle": 0,
@@ -4994,9 +5272,48 @@
           "name": "Plataforma_Debil",
           "persistentUuid": "764711ed-6cbd-4915-a5fa-0a39756898d8",
           "width": 0,
-          "x": 627,
-          "y": 258,
+          "x": 609,
+          "y": 191,
           "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 49,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "52ee0e78-a2e7-4997-b21d-3cbc6dc0392f",
+          "width": 48,
+          "x": 558,
+          "y": 152,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "DistanciaVuelo",
+              "type": "number",
+              "value": 80
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Posicion_Cristal",
+          "persistentUuid": "935c27f3-b843-480b-9440-2d01e51351a3",
+          "width": 0,
+          "x": 728,
+          "y": 63,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5007,13 +5324,87 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Murcielago",
-          "persistentUuid": "52ee0e78-a2e7-4997-b21d-3cbc6dc0392f",
+          "name": "PosicionInicial_Personaje",
+          "persistentUuid": "68ce210f-374c-4f72-8c8a-47f667d34877",
           "width": 0,
-          "x": 587,
-          "y": 272,
-          "zOrder": 25,
+          "x": 34,
+          "y": 234,
+          "zOrder": 27,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "56993c81-f383-4dc8-b41d-5fd21bf32d88",
+          "width": 0,
+          "x": 382,
+          "y": 459,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "0d9d7be3-108f-4305-8453-eec03bb6a320",
+          "width": 0,
+          "x": 380,
+          "y": 241,
+          "zOrder": 29,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "8bc663cf-3a0c-4a06-9a5a-a960b3b08296",
+          "width": 0,
+          "x": 549,
+          "y": 303,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "440d91aa-3143-4b79-9af8-19c14588bdb8",
+          "width": 0,
+          "x": 537,
+          "y": 187,
+          "zOrder": 31,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -5045,24 +5436,10 @@
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "name": "PlatformerObject",
-              "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "useLegacyTrajectory": false,
-              "useRepeatedJump": false,
-              "xGrabTolerance": 10,
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -5112,7 +5489,7 @@
               },
               "parameters": [
                 "",
-                "\"Diseño Fondo Bosque\"",
+                "\"Diseño Interfaz\"",
                 "",
                 "",
                 ""
@@ -5133,6 +5510,139 @@
             "includeConfig": 0
           },
           "target": "Fondo Bosque"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Plataforma Levitadora"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Plataforma Debil"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Plataforma Trampolin"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Enemigo Fantasma"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Enemigo Lobo"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Enemigo Murcielago"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "El portal se abre si tiene la llave"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Fragmento",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Niño",
+                "Portal",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Portal",
+                "Animation",
+                "=",
+                "\"Portal_Abierto\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Portal",
+                    "Animation",
+                    "=",
+                    "\"Portal_Abierto\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel 3\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -5147,7 +5657,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Background 01",
+          "name": "Fondo1",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -5200,7 +5710,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Background 02",
+          "name": "Fondo2",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -5253,7 +5763,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Background 03",
+          "name": "Fondo3",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -5306,7 +5816,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Background 04",
+          "name": "Fondo4",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -5359,7 +5869,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Background 05",
+          "name": "Fondo5",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -5427,6 +5937,59 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Interfaz",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -5510,15 +6073,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 46,
       "disableInputWhenNotFocused": true,
       "mangledName": "Nivel_323",
       "name": "Nivel 3",
-      "r": 209,
+      "r": 35,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 29,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -5529,18 +6092,879 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7291666666666666,
+        "zoomFactor": 0.2978134119174854,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo1",
+          "name": "FondoBosque",
+          "persistentUuid": "8544d37b-55e5-4ee5-a9f6-2d278adc7b4d",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo2",
+          "name": "FondoBosque",
+          "persistentUuid": "7ffa6989-861f-4032-84a7-7f9265519176",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo3",
+          "name": "FondoBosque",
+          "persistentUuid": "872627bf-2d2f-41e4-96f8-6f50c8de26fb",
+          "width": 0,
+          "x": 2,
+          "y": 2,
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo4",
+          "name": "FondoBosque",
+          "persistentUuid": "c109f7af-c6e4-497f-a8e6-26cead0d5152",
+          "width": 0,
+          "x": 3,
+          "y": 3,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo5",
+          "name": "FondoBosque",
+          "persistentUuid": "1a38c451-9194-431e-bde1-46444a19d43c",
+          "width": 0,
+          "x": 3,
+          "y": 3,
+          "zOrder": 4,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo1",
+          "name": "FondoBosque",
+          "persistentUuid": "70235167-e715-424a-bd0c-ee3dd728a90b",
+          "width": 0,
+          "x": -916,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo2",
+          "name": "FondoBosque",
+          "persistentUuid": "541f9dd6-2e47-49d9-9f44-a02ee2316b75",
+          "width": 0,
+          "x": -916,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo3",
+          "name": "FondoBosque",
+          "persistentUuid": "9c65fb3c-aa35-49b3-b233-c4a91d454eff",
+          "width": 0,
+          "x": -916,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo4",
+          "name": "FondoBosque",
+          "persistentUuid": "960fd5fb-326e-415b-a976-b2f62b3be265",
+          "width": 0,
+          "x": -916,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo5",
+          "name": "FondoBosque",
+          "persistentUuid": "7e9d8e73-5130-45f8-9949-dcacc0051250",
+          "width": 0,
+          "x": -916,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo1",
+          "name": "FondoBosque",
+          "persistentUuid": "29b328fb-5c51-4f83-ad23-db76fa6f02d0",
+          "width": 0,
+          "x": 916,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo2",
+          "name": "FondoBosque",
+          "persistentUuid": "1e75980c-bf4f-4f61-bd5d-6d068df53eec",
+          "width": 0,
+          "x": 916,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo3",
+          "name": "FondoBosque",
+          "persistentUuid": "d0c7ec85-9c31-4e69-b6ef-69dd6e2523da",
+          "width": 0,
+          "x": 916,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo4",
+          "name": "FondoBosque",
+          "persistentUuid": "423fd0d4-2423-40ef-b602-f244a75a5145",
+          "width": 0,
+          "x": 916,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo5",
+          "name": "FondoBosque",
+          "persistentUuid": "c077509c-d986-4adc-9159-d55da219f0ec",
+          "width": 0,
+          "x": 916,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo1",
+          "name": "FondoBosque",
+          "persistentUuid": "1046686c-8c56-441d-b53a-c1baa5ce6a13",
+          "width": 0,
+          "x": 1820,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo2",
+          "name": "FondoBosque",
+          "persistentUuid": "177275fd-2495-4c6a-ba74-b093ad7e1456",
+          "width": 0,
+          "x": 1820,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo3",
+          "name": "FondoBosque",
+          "persistentUuid": "344dd690-fbfe-442a-91c5-483d3d1b0f05",
+          "width": 0,
+          "x": 1820,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo4",
+          "name": "FondoBosque",
+          "persistentUuid": "5afd0215-8c27-4823-838f-b054f22a2834",
+          "width": 0,
+          "x": 1820,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fondo5",
+          "name": "FondoBosque",
+          "persistentUuid": "5982e052-55c5-4de5-b206-c207975b9e51",
+          "width": 0,
+          "x": 1820,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
       "objects": [],
       "objectsFolderStructure": {
         "folderName": "__ROOT"
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Diseño Interfaz\"",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Personaje Principal"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Fondo Bosque"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Plataforma Levitadora"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Plataforma Debil"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Plataforma Trampolin"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Enemigo Fantasma"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Enemigo Lobo"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Enemigo Murcielago"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "El portal se abre si tiene la llave"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Fragmento",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Niño",
+                "Portal",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Portal",
+                "Animation",
+                "=",
+                "\"Portal_Abierto\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Portal",
+                    "Animation",
+                    "=",
+                    "\"Portal_Abierto\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel 4\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fondo1",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fondo2",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fondo3",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fondo4",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fondo5",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -5567,6 +6991,59 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Interfaz",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -6578,7 +8055,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Puntos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6749,7 +8225,6 @@
           "comment": "Obtener el fragmento de cristal para abrir el portal"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6849,7 +8324,6 @@
           "comment": "Si ya obtiene el cristal:"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6866,11 +8340,10 @@
           "actions": [
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "Cristal",
-                ""
+                "Cristal"
               ]
             }
           ],
@@ -6898,6 +8371,164 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Nivel 1",
+      "name": "Muerte del Personaje",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Este evento se ejecuta cuando el personaje colisiona contra algo que le haga perder una vida"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Vida",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Niño",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Niño",
+                "PlatformerObject",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "Niño",
+                "Animation"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "=",
+                    "PosicionInicial_Personaje.X()",
+                    "=",
+                    "PosicionInicial_Personaje.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "Effect",
+                    "\"Effect\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Fragmento",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Cristal",
+                    "=",
+                    "Posicion_Cristal.X()",
+                    "=",
+                    "Posicion_Cristal.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Cristal",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
@@ -6966,7 +8597,7 @@
                   },
                   "parameters": [
                     "",
-                    "-920",
+                    "0",
                     "-78",
                     "1874",
                     "538",
@@ -7862,7 +9493,6 @@
               "comment": "Si le salta encima, lo mata"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8079,7 +9709,7 @@
     },
     {
       "associatedLayout": "Nivel 1",
-      "name": "Muerte del Personaje",
+      "name": "Enemigo Lobo",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -8091,128 +9721,162 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Este evento se ejecuta cuando el personaje colisiona contra algo que le haga perder una vida"
+          "comment": "Activar desplazamiento"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "conditions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "Distance"
               },
               "parameters": [
-                "Vida",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
+                "Lobo",
                 "Niño",
-                "Effect",
-                "\"Effect\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Niño",
-                "PlatformerObject",
+                "300",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "Niño",
-                "Animation"
               ]
             }
           ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Lobo",
+                "PuedeMoverse",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Desplazamiento"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Lobo",
+                "PuedeMoverse",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Izquiera"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Lobo",
+                    "Direccion",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
+                    "value": "PlatformBehavior::SimulateControl"
                   },
                   "parameters": [
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "Niño",
-                    "=",
-                    "PosicionInicial_Personaje.X()",
-                    "=",
-                    "PosicionInicial_Personaje.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Niño",
+                    "Lobo",
                     "PlatformerObject",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Lobo",
+                    "Flippable",
                     "yes"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Derecha"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                    "value": "BooleanObjectVariable"
                   },
                   "parameters": [
-                    "Niño",
-                    "Effect",
-                    "\"Effect\"",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
-                  },
-                  "parameters": [
-                    "Niño",
-                    "Animation"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "Fragmento",
-                    "False",
+                    "Lobo",
+                    "Direccion",
+                    "True",
                     ""
                   ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Lobo",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
                 },
                 {
                   "type": {
-                    "value": "MettreXY"
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "Cristal",
-                    "=",
-                    "Posicion_Cristal.X()",
-                    "=",
-                    "Posicion_Cristal.Y()"
+                    "Lobo",
+                    "Flippable",
+                    "no"
                   ]
                 }
               ]
@@ -8220,9 +9884,839 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Cambio de direccion al colisionar con la flecha"
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Lobo",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Lobo",
+                "Animation",
+                "!=",
+                "\"Muerte\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Lobo",
+                    "Flecha_Direccion",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Flecha_Direccion",
+                    "Animation",
+                    "=",
+                    "\"Izquierda\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Lobo",
+                    "Direccion",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Lobo",
+                    "Flecha_Direccion",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Flecha_Direccion",
+                    "Animation",
+                    "=",
+                    "\"Derecha\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Lobo",
+                    "Direccion",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Batalla de los personajes"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Niño",
+                "Lobo",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Lobo",
+                "Animation",
+                "!=",
+                "\"Muerte\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Si le salta encima, lo mata"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SetCanJump"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject",
+                    "\"Jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Lobo",
+                    "PlatformerObject",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Lobo",
+                    "Animation",
+                    "=",
+                    "\"Muerte\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Puntos",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Informacion visual"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Lobo",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Texto_Puntos_Enemigo",
+                        "Lobo.CenterX()-10",
+                        "Lobo.CenterY()-15",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Texto_Puntos_Enemigo",
+                        "Text",
+                        "=",
+                        "\"+1\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Texto_Puntos_Enemigo",
+                        "Tween",
+                        "\"Elevar\"",
+                        "Texto_Puntos_Enemigo.Y()-30",
+                        "\"easeInOutBack\"",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Texto_Puntos_Enemigo",
+                        "Tween",
+                        "\"Desaparecer\"",
+                        "0",
+                        "\"linear\"",
+                        "0.5",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Desaparecer enemigo"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Lobo",
+                        "Tween",
+                        "\"Desaparecer\"",
+                        "0",
+                        "\"linear\"",
+                        "0.5",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "Muerte del Personaje"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Nivel 1",
+      "name": "Enemigo Murcielago",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Inicializacion"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Murcielago",
+                "AlturaBase",
+                "=",
+                "Murcielago.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Murcielago",
+                "Direccion",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Murcielago",
+                "Tween",
+                "\"vuelo\"",
+                "Murcielago.Variable(AlturaBase)+Murcielago.DistanciaVuelo",
+                "\"easeInOutSine\"",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Bucle de vuelo ( Sube y baja infinito)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Murcielago",
+                "Tween",
+                "\"vuelo\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Murcielago",
+                "Direccion",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Murcielago",
+                "Direccion",
+                "=",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Murcielago",
+                "Tween",
+                "\"vuelo\"",
+                "Murcielago.Variable(AlturaBase)",
+                "\"easeInOutSine\"",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Murcielago",
+                "Tween",
+                "\"vuelo\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Murcielago",
+                "Direccion",
+                "=",
+                "-1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Murcielago",
+                "Direccion",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Murcielago",
+                "Tween",
+                "\"vuelo\"",
+                "Murcielago.Variable(AlturaBase)+Murcielago.DistanciaVuelo",
+                "\"easeInOutSine\"",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Batalla de los personajes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Niño",
+                "Murcielago",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Murcielago",
+                "Animation",
+                "!=",
+                "\"Muerte\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Si le salta encima, lo mata"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SetCanJump"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject",
+                    "\"Jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Murcielago",
+                    "Animation",
+                    "=",
+                    "\"Muerte\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Puntos",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Informacion visual"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Murcielago",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Texto_Puntos_Enemigo",
+                        "Murcielago.CenterX()-10",
+                        "Murcielago.CenterY()-15",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Texto_Puntos_Enemigo",
+                        "Text",
+                        "=",
+                        "\"+1\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Texto_Puntos_Enemigo",
+                        "Tween",
+                        "\"Elevar\"",
+                        "Texto_Puntos_Enemigo.Y()-30",
+                        "\"easeInOutBack\"",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Texto_Puntos_Enemigo",
+                        "Tween",
+                        "\"Desaparecer\"",
+                        "0",
+                        "\"linear\"",
+                        "0.5",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Desaparecer enemigo"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Murcielago",
+                        "Tween",
+                        "\"Desaparecer\"",
+                        "0",
+                        "\"linear\"",
+                        "0.5",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "Muerte del Personaje"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -8544,7 +11038,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4583360322149761,
+        "zoomFactor": 0.37563465761060866,
         "windowMask": false
       }
     },
@@ -8695,7 +11189,7 @@
           "name": "Texto_Vida",
           "persistentUuid": "b4dc0774-cd33-4b1e-a236-01a6b46a3cb1",
           "width": 44,
-          "x": 28,
+          "x": 32,
           "y": 14,
           "zOrder": 6,
           "numberProperties": [],
@@ -8711,8 +11205,8 @@
           "name": "Texto_Puntos",
           "persistentUuid": "7f914a5f-83e6-4765-900d-01922aff488f",
           "width": 0,
-          "x": 101,
-          "y": 15,
+          "x": 105,
+          "y": 14,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -8729,7 +11223,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.7852924230460494,
+        "zoomFactor": 2.178350237242001,
         "windowMask": false
       }
     }
