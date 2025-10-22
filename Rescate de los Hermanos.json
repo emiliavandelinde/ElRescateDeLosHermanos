@@ -70,7 +70,7 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": false,
+      "showGDevelopSplash": true,
       "showProgressBar": true
     },
     "watermark": {
@@ -600,26 +600,138 @@
       },
       {
         "disablePreload": false,
-        "file": "../../../Downloads/SueloNivel4.json",
+        "file": "sueloNivel3.json",
         "kind": "tilemap",
         "metadata": "",
-        "name": "..\\..\\..\\Downloads\\SueloNivel4.json",
+        "name": "sueloNivel3.json",
         "userAdded": false
       },
       {
-        "disablePreload": false,
-        "file": "SueloNivel5.json",
-        "kind": "tilemap",
+        "file": "suelo3.png",
+        "kind": "image",
         "metadata": "",
-        "name": "SueloNivel5.json",
+        "name": "suelo3.png",
+        "smoothed": false,
         "userAdded": false
       },
       {
-        "disablePreload": false,
-        "file": "SueloNivel4.json",
-        "kind": "tilemap",
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bateria3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"bateria3.png\",\"extension\":\".png\"}",
+        "name": "bateria3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bateria4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"bateria4.png\",\"extension\":\".png\"}",
+        "name": "bateria4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bateria5.png",
+        "kind": "image",
         "metadata": "",
-        "name": "SueloNivel4.json",
+        "name": "bateria5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bateria6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bateria6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bateria7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bateria7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bateria8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"bateria8.png\",\"extension\":\".png\"}",
+        "name": "bateria8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bateria9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"bateria9.png\",\"extension\":\".png\"}",
+        "name": "bateria9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bateria10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bateria10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/0Rayitas.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0Rayitas",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/2Rayitas.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "2Rayitas",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/1Rayita.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "1Rayita",
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -728,10 +840,8 @@
       },
       {
         "disablePreload": false,
-        "file": "SueloNivel5.json",
-        "kind": "tilemap",
-        "metadata": "",
         "file": "SueloNivel4.json",
+        "kind": "tilemap",
         "metadata": "",
         "name": "SueloNivel4.json",
         "userAdded": false
@@ -754,10 +864,10 @@
       },
       {
         "disablePreload": false,
-        "file": "SueloNivel4.tmj",
+        "file": "Rescate de los Hermanos.json",
         "kind": "tilemap",
         "metadata": "",
-        "name": "SueloNivel4.tmj",
+        "name": "Rescate de los Hermanos.json",
         "userAdded": false
       }
     ],
@@ -5726,8 +5836,7 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.4763490140727347,
-        "windowMask": false,
-        "selectedLayer": ""
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
@@ -7069,8 +7178,8 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.25,
-        "windowMask": true,
+        "zoomFactor": 1,
+        "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
@@ -7085,8 +7194,8 @@
           "name": "Niño",
           "persistentUuid": "e006bc12-118e-47c0-a9fd-230fd2166996",
           "width": 0,
-          "x": 15,
-          "y": 275,
+          "x": 19,
+          "y": 168,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -7101,8 +7210,8 @@
           "name": "PosicionInicial_Personaje",
           "persistentUuid": "faf07104-b35a-401a-b15c-220727e3c27e",
           "width": 0,
-          "x": 15,
-          "y": 275,
+          "x": 30,
+          "y": 174,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -7113,13 +7222,12 @@
           "customSize": true,
           "depth": 1.0018552875695734,
           "height": 640,
-          "keepRatio": true,
           "layer": "",
           "name": "SueloNivel3",
           "persistentUuid": "767654a4-802c-480d-b710-99202a241f4a",
           "width": 3840,
-          "x": 0,
-          "y": 0,
+          "x": 4,
+          "y": -100,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7134,8 +7242,8 @@
           "name": "SueloNivel3_Colision",
           "persistentUuid": "eadb5ed1-b46a-40ab-9bc5-bcf28d0b57c2",
           "width": 0,
-          "x": 0,
-          "y": 0,
+          "x": 2,
+          "y": -103,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -7150,8 +7258,8 @@
           "name": "Portal",
           "persistentUuid": "bbc77aff-acdb-410c-b6a4-80fdd847d133",
           "width": 0,
-          "x": 3453,
-          "y": 67,
+          "x": 3452,
+          "y": -39,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -7166,8 +7274,8 @@
           "name": "Cristal",
           "persistentUuid": "3b0921b4-09bd-46a0-bbbd-11b3be3f2c54",
           "width": 0,
-          "x": 3748,
-          "y": 216,
+          "x": 3788,
+          "y": 124,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -7182,10 +7290,1206 @@
           "name": "Posicion_Cristal",
           "persistentUuid": "c81f6f2d-d06e-4615-abec-e33dcce29936",
           "width": 0,
-          "x": 3748,
-          "y": 216,
+          "x": 3795,
+          "y": 124,
           "zOrder": 10,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "96b367b0-a941-462d-aede-42881aa85b4c",
+          "width": 0,
+          "x": 223,
+          "y": 391,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "db6aa3ca-07f1-42ea-a092-eab022772ce4",
+          "width": 0,
+          "x": 217,
+          "y": 98,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "bde1719b-c271-4c37-bf69-a4ec5afb5a83",
+          "width": 0,
+          "x": 240,
+          "y": 394,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "8f8df6a6-6e11-4cb0-b609-421860f28d9c",
+          "width": 0,
+          "x": 253,
+          "y": 412,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "fee05ab5-a9d7-4b52-a8a9-2157d0e2a234",
+          "width": 0,
+          "x": 413,
+          "y": 406,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "ac0681f0-45f8-4b80-8f7a-9c99c1a32c52",
+          "width": 0,
+          "x": 306,
+          "y": 404,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Levitadora",
+          "persistentUuid": "17c6e84a-817d-47f2-95ff-9c57e09325e6",
+          "width": 0,
+          "x": 198,
+          "y": 370,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "6fdf5ce7-c9e6-4298-9c64-cd3b22543819",
+          "width": 0,
+          "x": 405,
+          "y": 197,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Debil",
+          "persistentUuid": "344eb26b-b0c0-4104-84d1-3bbaf24bb126",
+          "width": 0,
+          "x": 351,
+          "y": 307,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "6facd35c-235b-4794-9f14-b74a3ebed16a",
+          "width": 0,
+          "x": 581,
+          "y": 260,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "8b18c0ad-6025-494a-86c7-cbd556bf66b7",
+          "width": 0,
+          "x": 593,
+          "y": 167,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "99725e6c-e2f4-444e-9aff-5d52fa6432cb",
+          "width": 0,
+          "x": 742,
+          "y": 162,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Debil",
+          "persistentUuid": "33f92741-3f89-464e-80c3-344640372fbc",
+          "width": 0,
+          "x": 676,
+          "y": 300,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "3e620669-b561-4bb3-9ef1-a38ee212fa84",
+          "width": 0,
+          "x": 842,
+          "y": 169,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "b75572d8-36f1-4614-b8f2-6183edd94d9b",
+          "width": 0,
+          "x": 924,
+          "y": 169,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "3f7f48c2-fb1b-4647-a423-86a226b207a4",
+          "width": 0,
+          "x": 824,
+          "y": 263,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "171adff1-1753-49cd-af7a-49ccd22fbfb0",
+          "width": 0,
+          "x": 923,
+          "y": 77,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "114c3dcf-9585-42ea-9c7f-91e826beaa5c",
+          "width": 0,
+          "x": 834,
+          "y": 291,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "940c66dc-e228-4270-8f6d-1fdba68a155e",
+          "width": 0,
+          "x": 858,
+          "y": 189,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "db2c3f4e-8d7b-491e-8643-f3a9ab2a4897",
+          "width": 0,
+          "x": 939,
+          "y": 92,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "a49c694d-b3e7-46a6-933c-7a7ce058550c",
+          "width": 0,
+          "x": 1204,
+          "y": 282,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "4c737f08-423e-4e1e-986a-fc50e38a2c76",
+          "width": 0,
+          "x": 1149,
+          "y": 181,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "f6a71f70-6539-4dbb-8ab8-f2c07d66caf3",
+          "width": 0,
+          "x": 1074,
+          "y": 83,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Levitadora",
+          "persistentUuid": "a8345c64-1ce8-421f-a277-cb1489851bb3",
+          "width": 0,
+          "x": 1310,
+          "y": 152,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Debil",
+          "persistentUuid": "d840b7ff-43de-44ed-8ae4-64032fb81120",
+          "width": 0,
+          "x": 1246,
+          "y": 241,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "72be9699-fa11-4526-b7c5-6148cf9be4e2",
+          "width": 0,
+          "x": 1334,
+          "y": 240,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "636d7d1c-825c-48af-a3fe-5a355797d2cf",
+          "width": 0,
+          "x": 1338,
+          "y": 145,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "832aa6df-a21c-4465-9482-cd8a9558d057",
+          "width": 0,
+          "x": 1386,
+          "y": 107,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "ee752a3d-aff5-4f3a-b8df-e64fb8e287ee",
+          "width": 0,
+          "x": 1399,
+          "y": 129,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "09502585-1826-4a10-a514-eb42f463aa98",
+          "width": 0,
+          "x": 1564,
+          "y": 127,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "6638cda5-f004-414f-b276-c9702b4a2a10",
+          "width": 0,
+          "x": 1475,
+          "y": 24,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "aeeecd98-544f-49df-97c2-cca4fc5bed82",
+          "width": 0,
+          "x": 1745,
+          "y": 40,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "57aeb8cc-22a0-4383-a34e-07e63fbfeaac",
+          "width": 0,
+          "x": 2011,
+          "y": 112,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Debil",
+          "persistentUuid": "9f73f301-9588-41f4-b5f2-1d0f50fb7582",
+          "width": 0,
+          "x": 2074,
+          "y": 133,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "556807ea-9426-49d8-92fc-0d3b81127570",
+          "width": 0,
+          "x": 2084,
+          "y": 93,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "81a7f3bc-1739-4eb7-ad5b-5b9dce5e38d4",
+          "width": 0,
+          "x": 2078,
+          "y": 355,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "7aac444e-1f52-4a6e-a9eb-39728cb47ed9",
+          "width": 0,
+          "x": 2177,
+          "y": 265,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "8ba171de-5af1-4f66-ad38-d74bab83e0e6",
+          "width": 0,
+          "x": 2286,
+          "y": 169,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "183cee0d-23d2-4a65-b713-2643441c355b",
+          "width": 0,
+          "x": 2285,
+          "y": 35,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "24cd4cf6-37ef-4273-bfb7-e9a455965ca5",
+          "width": 0,
+          "x": 2604,
+          "y": 271,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "d73f31de-cca9-4740-9ae1-20e82e8ef9a0",
+          "width": 0,
+          "x": 2860,
+          "y": 375,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "c9317314-5c21-48b8-adf5-51d64e826369",
+          "width": 0,
+          "x": 2699,
+          "y": 280,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "da691856-70dd-42ee-9499-cac63a465bcd",
+          "width": 0,
+          "x": 2501,
+          "y": 277,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "d313471e-1d98-4205-b38d-eeaf6275563c",
+          "width": 0,
+          "x": 2380,
+          "y": 187,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "27bdabd6-7864-4ffc-aeb2-2a11c28d9b49",
+          "width": 0,
+          "x": 2385,
+          "y": 54,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "2bf6c2ca-f3be-42b8-90e0-aa6a4fcf887f",
+          "width": 0,
+          "x": 2433,
+          "y": -14,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "85979acb-8f41-4b82-883f-d4026163d913",
+          "width": 0,
+          "x": 2303,
+          "y": 53,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "b97f0fe2-8ea4-4194-90b9-e168650dec8f",
+          "width": 0,
+          "x": 2305,
+          "y": 178,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "ca6ff5f6-2161-4508-982a-8a52177631ff",
+          "width": 0,
+          "x": 2200,
+          "y": 285,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "dc4ea6b3-1947-4904-8fa9-1c00c2199cd6",
+          "width": 0,
+          "x": 2625,
+          "y": 282,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "e325a549-1137-4e0c-a6e0-3ac1efdb0deb",
+          "width": 0,
+          "x": 2090,
+          "y": 377,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "1596ad8d-fe3e-4159-be35-135f98cd6607",
+          "width": 0,
+          "x": 2877,
+          "y": 324,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "c0677603-51c2-4616-affc-b44043b9762c",
+          "width": 0,
+          "x": 3115,
+          "y": 300,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Debil",
+          "persistentUuid": "65c68d62-d9f6-4a7e-b034-a4681f09eb72",
+          "width": 0,
+          "x": 3097,
+          "y": 340,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "34406185-afa5-40e1-8e61-3c4f00b0eb47",
+          "width": 0,
+          "x": 3047,
+          "y": 323,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "ead72ae3-6ff3-4d14-a03c-0e479d5353b5",
+          "width": 0,
+          "x": 3416,
+          "y": 297,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "f5de3547-5e07-4efe-a361-97d09174dcb6",
+          "width": 0,
+          "x": 3642,
+          "y": 306,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "3d7917fd-9e4b-4b5f-8d54-8b7bb81fbacf",
+          "width": 0,
+          "x": 3430,
+          "y": 303,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "662be240-c45d-4a5b-b9e9-237a2607e71d",
+          "width": 0,
+          "x": 3489,
+          "y": 251,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "81649356-7c36-4628-84f4-ee49ad8f60e1",
+          "width": 0,
+          "x": 3683,
+          "y": 34,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Debil",
+          "persistentUuid": "cdedee69-fc3a-40d7-9c1f-2d461a858e52",
+          "width": 0,
+          "x": 3579,
+          "y": 61,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Debil",
+          "persistentUuid": "5be7fbd1-dbe3-4e69-bb37-15a276fa0e6c",
+          "width": 0,
+          "x": 3602,
+          "y": 254,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Debil",
+          "persistentUuid": "1be44425-5538-4161-8fbd-c3e330769eba",
+          "width": 0,
+          "x": 3263,
+          "y": 342,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Levitadora",
+          "persistentUuid": "ceb7b872-a63b-4f87-9b4f-0df5b721c092",
+          "width": 0,
+          "x": 3553,
+          "y": 154,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "3743deef-5b26-4b94-ae6a-c82474907bbf",
+          "width": 0,
+          "x": 3575,
+          "y": 231,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "387bf46c-bf4e-4d86-8288-7c77127dc5e1",
+          "width": 0,
+          "x": 3588,
+          "y": 164,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -7199,7 +8503,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "tilemapJsonFile": "SueloNivel3.json",
+            "tilemapJsonFile": "sueloNivel3.json",
             "tilesetJsonFile": "suelo.json",
             "tilemapAtlasImage": "suelo.png",
             "displayMode": "visible",
@@ -7225,7 +8529,7 @@
             }
           ],
           "content": {
-            "tilemapJsonFile": "SueloNivel3.json",
+            "tilemapJsonFile": "sueloNivel3.json",
             "tilesetJsonFile": "suelo.json",
             "collisionMaskTag": "suelo",
             "layerIndex": 1,
@@ -7360,6 +8664,13 @@
             "includeConfig": 0
           },
           "target": "Plataforma Levitadora"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Plataforma Debil"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -7913,15 +9224,15 @@
       ]
     },
     {
-      "b": 46,
+      "b": 209,
       "disableInputWhenNotFocused": true,
       "mangledName": "Nivel_324",
       "name": "Nivel 4",
-      "r": 35,
+      "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 29,
+      "v": 209,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -7932,1138 +9243,19 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1,
+        "zoomFactor": 0.7291666666666666,
         "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PosicionInicial_Personaje",
-          "persistentUuid": "6b35314f-fc32-4184-858d-181aa3c30061",
-          "width": 0,
-          "x": 1,
-          "y": 482,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SueloNivel4",
-          "persistentUuid": "3e54015a-deee-4c4e-97d9-dbaa4e2b579a",
-          "width": 0,
-          "x": 0,
-          "y": -103,
-          "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SueloNivel4_Colision",
-          "persistentUuid": "e74091b1-ca7b-4c5d-a660-04e9c9af5365",
-          "width": 0,
-          "x": 2,
-          "y": -100,
-          "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Niño",
-          "persistentUuid": "9380657e-9c5d-4e44-8943-26b7bd1ac213",
-          "width": 0,
-          "x": 18,
-          "y": 72,
-          "zOrder": 42,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PosicionInicial_Personaje",
-          "persistentUuid": "32c364fb-b625-409f-8bc4-6a9f96de6db8",
-          "width": 0,
-          "x": 12,
-          "y": 94,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Levitadora",
-          "persistentUuid": "89d1223f-5c16-4918-bfcd-aca5c4d6c3fe",
-          "width": 0,
-          "x": 696,
-          "y": 410,
-          "zOrder": 44,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bateria",
-          "persistentUuid": "acfc4ff8-898d-4395-a9dc-cc7b8a3a0eac",
-          "width": 0,
-          "x": 908,
-          "y": 274,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dulce",
-          "persistentUuid": "00557316-0cb9-4501-aa82-ce15ab821520",
-          "width": 0,
-          "x": 406,
-          "y": 238,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dulce",
-          "persistentUuid": "5693e0c9-81a0-4a4c-a6bc-26a860b154b3",
-          "width": 0,
-          "x": 620,
-          "y": 386,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dulce",
-          "persistentUuid": "a7ee79d3-e0ec-42a2-bb6a-26593ec5fccf",
-          "width": 0,
-          "x": 1329,
-          "y": 106,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bateria",
-          "persistentUuid": "dff1be9c-9492-4636-b9d7-68a3ccd7a66c",
-          "width": 0,
-          "x": 1501,
-          "y": 46,
-          "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Fantasma",
-          "persistentUuid": "5552d20d-0502-477b-8267-d74e3264aa65",
-          "width": 0,
-          "x": 933,
-          "y": 268,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Murcielago",
-          "persistentUuid": "c632448c-19ef-4b30-ada7-557d0d41c88b",
-          "width": 0,
-          "x": 1875,
-          "y": -107,
-          "zOrder": 51,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dulce",
-          "persistentUuid": "254fb674-b876-4421-82ee-39ca60e5f65d",
-          "width": 0,
-          "x": 1769,
-          "y": -76,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bateria",
-          "persistentUuid": "a736b327-1a9f-4067-9e64-811dc98ee68c",
-          "width": 0,
-          "x": 2017,
-          "y": -66,
-          "zOrder": 53,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dulce",
-          "persistentUuid": "9e29df49-58b2-43f0-83d0-4f339c50d6ac",
-          "width": 0,
-          "x": 2243,
-          "y": 134,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bateria",
-          "persistentUuid": "a17c4211-f09f-459b-9f4f-c06f4890d937",
-          "width": 0,
-          "x": 2537,
-          "y": 156,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Debil",
-          "persistentUuid": "84dae64a-d6a3-471f-b536-c758cfc17d67",
-          "width": 0,
-          "x": 2609,
-          "y": 124,
-          "zOrder": 56,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Fantasma",
-          "persistentUuid": "0742b9e1-3fb0-446b-90f6-18588f7069a3",
-          "width": 0,
-          "x": 2764,
-          "y": 4,
-          "zOrder": 57,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dulce",
-          "persistentUuid": "2145083d-a6df-42fb-9ccb-ff9265673649",
-          "width": 0,
-          "x": 3044,
-          "y": 36,
-          "zOrder": 58,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Cristal",
-          "persistentUuid": "32702c6d-bfc4-4268-9a65-5585e0495469",
-          "width": 0,
-          "x": 3702,
-          "y": 2,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dulce",
-          "persistentUuid": "4956d436-79b9-412b-9e36-12ea1d9f8546",
-          "width": 0,
-          "x": 3326,
-          "y": 100,
-          "zOrder": 60,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Levitadora",
-          "persistentUuid": "e3607b31-ee26-4354-9f2b-dd5157fc220c",
-          "width": 0,
-          "x": 3832,
-          "y": 94,
-          "zOrder": 61,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Lobo",
-          "persistentUuid": "3616127f-44da-443f-a811-9dc476afce9b",
-          "width": 0,
-          "x": 4036,
-          "y": 224,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bateria",
-          "persistentUuid": "915c7bfe-eec0-4414-bec0-7daa2358e94e",
-          "width": 0,
-          "x": 4127,
-          "y": 249,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Trampolin",
-          "persistentUuid": "22cd924e-ca28-4199-bc21-63219e5c21be",
-          "width": 0,
-          "x": 4228,
-          "y": 250,
-          "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Trampolin",
-          "persistentUuid": "b77a79e4-8a07-4c64-b1e6-8a10ef585497",
-          "width": 0,
-          "x": 4458,
-          "y": 150,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bateria",
-          "persistentUuid": "a038f7d2-6d01-4013-accd-2a2bbf6dd5bc",
-          "width": 0,
-          "x": 4388,
-          "y": 162,
-          "zOrder": 66,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dulce",
-          "persistentUuid": "96edc313-ae2b-42f8-912e-a2801baeb798",
-          "width": 0,
-          "x": 4334,
-          "y": 156,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Portal",
-          "persistentUuid": "2bdb93fa-8a10-47c5-863a-bb20ece0afba",
-          "width": 0,
-          "x": 4702,
-          "y": -40,
-          "zOrder": 68,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Posicion_Cristal",
-          "persistentUuid": "b1bd87e9-4176-4265-8729-c03465990e42",
-          "width": 0,
-          "x": 3726,
-          "y": 2,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Murcielago",
-          "persistentUuid": "c84dd235-a94e-44ff-b9aa-aff349270626",
-          "width": 0,
-          "x": 4502,
-          "y": -8,
-          "zOrder": 70,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "21ea0ce8-dc02-4056-ab64-b0fb92212551",
-          "width": 21,
-          "x": 719,
-          "y": 446,
-          "zOrder": 71,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "name": "SueloNivel4",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "SueloNivel4.tmj",
-            "tilesetJsonFile": "suelo.json",
-            "tilemapAtlasImage": "suelo.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "SueloNivel4_Colision",
-          "type": "TileMap::CollisionMask",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": true,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ],
-          "content": {
-            "tilemapJsonFile": "SueloNivel4.tmj",
-            "tilesetJsonFile": "suelo.json",
-            "collisionMaskTag": "suelo",
-            "layerIndex": 1,
-            "useAllLayers": true,
-            "debugMode": false,
-            "fillColor": "255;255;255",
-            "outlineColor": "255;255;255",
-            "fillOpacity": 64,
-            "outlineOpacity": 128,
-            "outlineSize": 1
-          }
-        }
-      ],
+      "instances": [],
+      "objects": [],
       "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "SueloNivel4"
-          },
-          {
-            "objectName": "SueloNivel4_Colision"
-          }
-        ]
+        "folderName": "__ROOT"
       },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Al comenzar la scena, se muestra la interfaz"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Diseño Interfaz\"",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Diseño Fondo Bosque\"",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "La cámara sigue al jugador"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Niño",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Forzar Limites de la cámara"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "0",
-                "-78",
-                "1919",
-                "538",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Personaje Principal"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Fondo Bosque"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Plataforma Levitadora"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Plataforma Debil"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Plataforma Trampolin"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Enemigo Fantasma"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Enemigo Lobo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Enemigo Murcielago"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "SistemaLinterna"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "El portal se abre si tiene la llave"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Fragmento",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Niño",
-                "Portal",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Portal",
-                "Animation",
-                "=",
-                "\"Portal_Abierto\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Portal",
-                    "Animation",
-                    "=",
-                    "\"Portal_Abierto\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Up\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Nivel 5\"",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
+      "events": [],
       "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fondo1",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fondo2",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fondo3",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fondo4",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fondo5",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -9090,59 +9282,6 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Interfaz",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -9230,15 +9369,15 @@
       ]
     },
     {
-      "b": 46,
+      "b": 209,
       "disableInputWhenNotFocused": true,
       "mangledName": "Nivel_325",
       "name": "Nivel 5",
-      "r": 35,
+      "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 29,
+      "v": 209,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -9250,984 +9389,18 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.7291666666666666,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SueloNivel5",
-          "persistentUuid": "08d92bbe-6b53-4823-97ce-ca1034108b01",
-          "width": 0,
-          "x": 0,
-          "y": -36,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SueloNivel5_Colision",
-          "persistentUuid": "3a87cb91-f0bc-4cbb-af88-92e46c378c80",
-          "width": 0,
-          "x": 0,
-          "y": -36,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Niño",
-          "persistentUuid": "2dc567fa-48ec-4ca8-8d42-46584d56e9b0",
-          "width": 0,
-          "x": 21,
-          "y": 487,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PosicionInicial_Personaje",
-          "persistentUuid": "ae923f89-ccda-431d-8420-a7d509b0759f",
-          "width": 0,
-          "x": 34,
-          "y": 499,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Levitadora",
-          "persistentUuid": "c4f3eae1-bcf0-42aa-b07a-3f9375eff259",
-          "width": 0,
-          "x": 93,
-          "y": 457,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Debil",
-          "persistentUuid": "6de679d4-f8a6-4eae-8f6f-28ab15827613",
-          "width": 0,
-          "x": 204,
-          "y": 401,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Debil",
-          "persistentUuid": "cfea2ff1-dbe4-47b1-8e99-45362b54a71a",
-          "width": 0,
-          "x": 352,
-          "y": 406,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Levitadora",
-          "persistentUuid": "d3adf40d-4a68-4392-8d7c-e8a5f72f6509",
-          "width": 0,
-          "x": 505,
-          "y": 432,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Debil",
-          "persistentUuid": "e76775ae-e415-4c4a-9fae-50945f5244d7",
-          "width": 0,
-          "x": 622,
-          "y": 368,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Debil",
-          "persistentUuid": "061cd07a-f1f3-47a7-8caa-36bb3c3229fa",
-          "width": 0,
-          "x": 739,
-          "y": 321,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Lobo",
-          "persistentUuid": "49d3ae49-0a0d-4ce8-9fda-405175159849",
-          "width": 0,
-          "x": 809,
-          "y": 480,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Murcielago",
-          "persistentUuid": "937fc78d-8a0e-4316-9ac4-805bf8bcfa65",
-          "width": 0,
-          "x": 566,
-          "y": 273,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "DistanciaVuelo",
-              "type": "number",
-              "value": 50
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Murcielago",
-          "persistentUuid": "c53e17de-785c-44df-91ad-2c31c5bb2e09",
-          "width": 0,
-          "x": 465,
-          "y": 373,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "DistanciaVuelo",
-              "type": "number",
-              "value": 50
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Fantasma",
-          "persistentUuid": "c13e75b6-ffbb-4f8f-b73a-ad06b2f73067",
-          "width": 0,
-          "x": 310,
-          "y": 469,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Fantasma",
-          "persistentUuid": "3f90bd94-46b1-4497-8fa4-956f15170c78",
-          "width": 0,
-          "x": 757,
-          "y": 246,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Fantasma",
-          "persistentUuid": "c1aa418d-0e72-4205-bcd6-271eceb0e81d",
-          "width": 0,
-          "x": 282,
-          "y": 311,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bateria",
-          "persistentUuid": "b25385c6-5c03-4271-b201-1bdf4324f242",
-          "width": 0,
-          "x": 367,
-          "y": 364,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bateria",
-          "persistentUuid": "a9cd5882-17d3-4b7f-88d2-d9824a237180",
-          "width": 0,
-          "x": 632,
-          "y": 329,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Portal",
-          "persistentUuid": "e7f31581-ac24-47ef-bc7e-57bcda5acd06",
-          "width": 0,
-          "x": 895,
-          "y": 221,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 15,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "e7cf069a-75ce-4319-99f7-9cb01732d271",
-          "width": 17,
-          "x": 115,
-          "y": 495,
-          "zOrder": 20,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "983afb23-9e7b-4130-bb45-c0464f83a122",
-          "width": 0,
-          "x": 109,
-          "y": 331,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 95,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "bdc56599-da9e-4e33-9414-c8d4f2c94f15",
-          "width": 0,
-          "x": 529,
-          "y": 468,
-          "zOrder": 22,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 2
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "bccb8277-a6af-4f12-b03f-c398213b44f9",
-          "width": 0,
-          "x": 533,
-          "y": 328,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 267,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "7e73e38c-c65d-42e2-b069-0d26ce22ffae",
-          "width": 0,
-          "x": 264,
-          "y": 328,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 92,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "4c0d5315-c311-4112-a6f7-332081cdf2cd",
-          "width": 0,
-          "x": 330,
-          "y": 330,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "name": "NewExternalTileMap",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "",
-            "tilesetJsonFile": "",
-            "tilemapAtlasImage": "",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "SueloNivel5",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "SueloNivel5.json",
-            "tilesetJsonFile": "suelo.json",
-            "tilemapAtlasImage": "suelo.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "SueloNivel5_Colision",
-          "type": "TileMap::CollisionMask",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": true,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ],
-          "content": {
-            "tilemapJsonFile": "SueloNivel5.json",
-            "tilesetJsonFile": "suelo.json",
-            "collisionMaskTag": "suelo",
-            "layerIndex": 1,
-            "useAllLayers": true,
-            "debugMode": false,
-            "fillColor": "255;255;255",
-            "outlineColor": "255;255;255",
-            "fillOpacity": 64,
-            "outlineOpacity": 128,
-            "outlineSize": 1
-          }
-        }
-      ],
+      "instances": [],
+      "objects": [],
       "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "NewExternalTileMap"
-          },
-          {
-            "objectName": "SueloNivel5"
-          },
-          {
-            "objectName": "SueloNivel5_Colision"
-          }
-        ]
+        "folderName": "__ROOT"
       },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Diseño Fondo Bosque\"",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Diseño Interfaz\"",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Personaje Principal"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Muerte del Personaje"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Fondo Bosque"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Plataforma Levitadora"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Plataforma Debil"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Plataforma Trampolin"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Enemigo Fantasma"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Enemigo Lobo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Enemigo Murcielago"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "SistemaLinterna"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "El portal se abre si tiene la llave"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Fragmento",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Niño",
-                "Portal",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Portal",
-                "Animation",
-                "=",
-                "\"Portal_Abierto\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Portal",
-                    "Animation",
-                    "=",
-                    "\"Portal_Abierto\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Up\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Game Over\"",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
+      "events": [],
       "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fondo1",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fondo2",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fondo3",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fondo4",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fondo5",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -10254,59 +9427,6 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Interfaz",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
