@@ -749,6 +749,14 @@
         "metadata": "",
         "name": "..\\OneDrive\\Imágenes\\SueloNivel3.json",
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "SueloNivel4.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "SueloNivel4.tmj",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -778,11 +786,11 @@
       ],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 100,
           "deceleration": 200,
           "maxSpeed": 120,
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "canGrabPlatforms": false,
           "gravity": 200,
           "jumpSpeed": 250,
@@ -4145,13 +4153,21 @@
               "type": {
                 "value": "SourisSurObjet"
               },
-              "parameters": ["BotonJugar", "", "", ""]
+              "parameters": [
+                "BotonJugar",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "MouseButtonFromTextPressed"
               },
-              "parameters": ["", "\"Left\""]
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
             }
           ],
           "actions": [
@@ -4159,7 +4175,11 @@
               "type": {
                 "value": "Scene"
               },
-              "parameters": ["", "\"Nivel 1\"", ""]
+              "parameters": [
+                "",
+                "\"Nivel 1\"",
+                ""
+              ]
             }
           ]
         },
@@ -4170,13 +4190,21 @@
               "type": {
                 "value": "SourisSurObjet"
               },
-              "parameters": ["BotonOpciones", "", "", ""]
+              "parameters": [
+                "BotonOpciones",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "MouseButtonFromTextPressed"
               },
-              "parameters": ["", "\"Left\""]
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
             }
           ],
           "actions": [
@@ -4184,7 +4212,11 @@
               "type": {
                 "value": "Scene"
               },
-              "parameters": ["", "\"Opciones\"", ""]
+              "parameters": [
+                "",
+                "\"Opciones\"",
+                ""
+              ]
             }
           ]
         },
@@ -4195,13 +4227,21 @@
               "type": {
                 "value": "SourisSurObjet"
               },
-              "parameters": ["BotonManual", "", "", ""]
+              "parameters": [
+                "BotonManual",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "MouseButtonFromTextPressed"
               },
-              "parameters": ["", "\"Left\""]
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
             }
           ],
           "actions": [
@@ -4209,7 +4249,11 @@
               "type": {
                 "value": "Scene"
               },
-              "parameters": ["", "\"Manual\"", ""]
+              "parameters": [
+                "",
+                "\"Manual\"",
+                ""
+              ]
             }
           ]
         },
@@ -4909,10 +4953,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -4962,7 +5006,9 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -4970,13 +5016,25 @@
               "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
-              "parameters": ["", "\"Diseño Interfaz\"", "", "", ""]
+              "parameters": [
+                "",
+                "\"Diseño Interfaz\"",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
-              "parameters": ["", "\"Diseño Fondo Bosque\"", "", "", ""]
+              "parameters": [
+                "",
+                "\"Diseño Fondo Bosque\"",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -5000,7 +5058,13 @@
               "type": {
                 "value": "CentreCamera"
               },
-              "parameters": ["", "Niño", "", "", ""]
+              "parameters": [
+                "",
+                "Niño",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -5024,7 +5088,15 @@
               "type": {
                 "value": "ClampCamera"
               },
-              "parameters": ["", "0", "-78", "1919", "538", "", ""]
+              "parameters": [
+                "",
+                "0",
+                "-78",
+                "1919",
+                "538",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -5110,13 +5182,23 @@
               "type": {
                 "value": "BooleanVariable"
               },
-              "parameters": ["Fragmento", "True", ""]
+              "parameters": [
+                "Fragmento",
+                "True",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Niño", "Portal", "", "", ""]
+              "parameters": [
+                "Niño",
+                "Portal",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -5124,7 +5206,12 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
-              "parameters": ["Portal", "Animation", "=", "\"Portal_Abierto\""]
+              "parameters": [
+                "Portal",
+                "Animation",
+                "=",
+                "\"Portal_Abierto\""
+              ]
             }
           ],
           "events": [
@@ -5146,7 +5233,10 @@
                   "type": {
                     "value": "KeyFromTextPressed"
                   },
-                  "parameters": ["", "\"Up\""]
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
                 }
               ],
               "actions": [
@@ -5154,7 +5244,11 @@
                   "type": {
                     "value": "Scene"
                   },
-                  "parameters": ["", "\"Nivel 2\"", ""]
+                  "parameters": [
+                    "",
+                    "\"Nivel 2\"",
+                    ""
+                  ]
                 }
               ]
             }
@@ -5630,7 +5724,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.4763490140727347,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -6353,7 +6448,9 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -6361,7 +6458,13 @@
               "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
-              "parameters": ["", "\"Diseño Interfaz\"", "", "", ""]
+              "parameters": [
+                "",
+                "\"Diseño Interfaz\"",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -6440,13 +6543,23 @@
               "type": {
                 "value": "BooleanVariable"
               },
-              "parameters": ["Fragmento", "True", ""]
+              "parameters": [
+                "Fragmento",
+                "True",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Niño", "Portal", "", "", ""]
+              "parameters": [
+                "Niño",
+                "Portal",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -6454,7 +6567,12 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
-              "parameters": ["Portal", "Animation", "=", "\"Portal_Abierto\""]
+              "parameters": [
+                "Portal",
+                "Animation",
+                "=",
+                "\"Portal_Abierto\""
+              ]
             }
           ],
           "events": [
@@ -6476,7 +6594,10 @@
                   "type": {
                     "value": "KeyFromTextPressed"
                   },
-                  "parameters": ["", "\"Up\""]
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
                 }
               ],
               "actions": [
@@ -6484,7 +6605,11 @@
                   "type": {
                     "value": "Scene"
                   },
-                  "parameters": ["", "\"Nivel 3\"", ""]
+                  "parameters": [
+                    "",
+                    "\"Nivel 3\"",
+                    ""
+                  ]
                 }
               ]
             }
@@ -6942,8 +7067,8 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5233548233984309,
-        "windowMask": false,
+        "zoomFactor": 0.25,
+        "windowMask": true,
         "selectedLayer": ""
       },
       "objectsGroups": [],
@@ -6986,6 +7111,7 @@
           "customSize": true,
           "depth": 1.0018552875695734,
           "height": 640,
+          "keepRatio": true,
           "layer": "",
           "name": "SueloNivel3",
           "persistentUuid": "767654a4-802c-480d-b710-99202a241f4a",
@@ -7130,7 +7256,9 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -7138,7 +7266,13 @@
               "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
-              "parameters": ["", "\"Diseño Interfaz\"", "", "", ""]
+              "parameters": [
+                "",
+                "\"Diseño Interfaz\"",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -7162,7 +7296,13 @@
               "type": {
                 "value": "CentreCamera"
               },
-              "parameters": ["", "Niño", "", "", ""]
+              "parameters": [
+                "",
+                "Niño",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -7186,7 +7326,15 @@
               "type": {
                 "value": "ClampCamera"
               },
-              "parameters": ["", "0", "-78", "3840", "538", "", ""]
+              "parameters": [
+                "",
+                "0",
+                "-78",
+                "3840",
+                "538",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -7258,13 +7406,23 @@
               "type": {
                 "value": "BooleanVariable"
               },
-              "parameters": ["Fragmento", "True", ""]
+              "parameters": [
+                "Fragmento",
+                "True",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Niño", "Portal", "", "", ""]
+              "parameters": [
+                "Niño",
+                "Portal",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -7272,7 +7430,12 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
-              "parameters": ["Portal", "Animation", "=", "\"Portal_Abierto\""]
+              "parameters": [
+                "Portal",
+                "Animation",
+                "=",
+                "\"Portal_Abierto\""
+              ]
             }
           ],
           "events": [
@@ -7294,7 +7457,10 @@
                   "type": {
                     "value": "KeyFromTextPressed"
                   },
-                  "parameters": ["", "\"Up\""]
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
                 }
               ],
               "actions": [
@@ -7302,7 +7468,11 @@
                   "type": {
                     "value": "Scene"
                   },
-                  "parameters": ["", "\"Nivel 4\"", ""]
+                  "parameters": [
+                    "",
+                    "\"Nivel 4\"",
+                    ""
+                  ]
                 }
               ]
             }
@@ -7769,23 +7939,6 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 640,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SueloNivel4",
-          "persistentUuid": "eb928f61-b399-41d1-a6b2-6bf68a182ee8",
-          "width": 4800,
-          "x": -2,
-          "y": -30,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -7806,12 +7959,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Niño",
-          "persistentUuid": "a3664c6b-0bf4-4f04-b56e-29e376fca9a6",
+          "name": "SueloNivel4",
+          "persistentUuid": "3e54015a-deee-4c4e-97d9-dbaa4e2b579a",
           "width": 0,
-          "x": 16,
-          "y": 462,
-          "zOrder": 18,
+          "x": 0,
+          "y": -103,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7822,29 +7975,60 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Portal",
-          "persistentUuid": "e4ed2650-c6e0-4a30-9bce-e8b110753a69",
+          "name": "SueloNivel4_Colision",
+          "persistentUuid": "e74091b1-ca7b-4c5d-a660-04e9c9af5365",
           "width": 0,
-          "x": 2932,
-          "y": 434,
-          "zOrder": 19,
+          "x": 2,
+          "y": -100,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Niño",
+          "persistentUuid": "9380657e-9c5d-4e44-8943-26b7bd1ac213",
+          "width": 0,
+          "x": 18,
+          "y": 72,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PosicionInicial_Personaje",
+          "persistentUuid": "32c364fb-b625-409f-8bc4-6a9f96de6db8",
+          "width": 0,
+          "x": 12,
+          "y": 94,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plataforma_Levitadora",
-          "persistentUuid": "e1b44c6c-a08e-4b85-add7-61285e8142cf",
-          "width": 63,
-          "x": 956,
-          "y": 405,
-          "zOrder": 20,
+          "persistentUuid": "89d1223f-5c16-4918-bfcd-aca5c4d6c3fe",
+          "width": 0,
+          "x": 696,
+          "y": 410,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7855,76 +8039,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "05f965ec-e74b-463e-8bbe-5b455a7719e3",
+          "name": "Bateria",
+          "persistentUuid": "acfc4ff8-898d-4395-a9dc-cc7b8a3a0eac",
           "width": 0,
-          "x": 979,
-          "y": 437,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Trampolin",
-          "persistentUuid": "9fbc38bd-9f6b-40e3-990a-9d6005224f74",
-          "width": 0,
-          "x": 637,
-          "y": 256,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plataforma_Debil",
-          "persistentUuid": "1449b171-c4f2-4932-ab8c-35dc14b76845",
-          "width": 0,
-          "x": 543,
-          "y": 220,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Murcielago",
-          "persistentUuid": "e77940d2-b947-44cc-922b-cd182f27454e",
-          "width": 0,
-          "x": 364,
-          "y": 30,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Lobo",
-          "persistentUuid": "08122fb3-3504-4d2d-b9dc-7ae2432a8f42",
-          "width": 0,
-          "x": 2126,
-          "y": 210,
-          "zOrder": 26,
+          "x": 908,
+          "y": 274,
+          "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7936,11 +8056,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Dulce",
-          "persistentUuid": "5213ae24-ccf0-4548-830b-bd18663978b0",
+          "persistentUuid": "00557316-0cb9-4501-aa82-ce15ab821520",
           "width": 0,
-          "x": 550,
-          "y": 373,
-          "zOrder": 27,
+          "x": 406,
+          "y": 238,
+          "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7952,11 +8072,43 @@
           "keepRatio": true,
           "layer": "",
           "name": "Dulce",
-          "persistentUuid": "fe238957-c168-48d7-8681-90de9d53ad78",
+          "persistentUuid": "5693e0c9-81a0-4a4c-a6bc-26a860b154b3",
           "width": 0,
-          "x": 970,
-          "y": 243,
-          "zOrder": 29,
+          "x": 620,
+          "y": 386,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "a7ee79d3-e0ec-42a2-bb6a-26593ec5fccf",
+          "width": 0,
+          "x": 1329,
+          "y": 106,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bateria",
+          "persistentUuid": "dff1be9c-9492-4636-b9d7-68a3ccd7a66c",
+          "width": 0,
+          "x": 1501,
+          "y": 46,
+          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7968,11 +8120,27 @@
           "keepRatio": true,
           "layer": "",
           "name": "Fantasma",
-          "persistentUuid": "45c24dac-cf4e-4423-8ead-cb7d94a51a07",
+          "persistentUuid": "5552d20d-0502-477b-8267-d74e3264aa65",
           "width": 0,
-          "x": 875,
-          "y": 272,
-          "zOrder": 30,
+          "x": 933,
+          "y": 268,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Murcielago",
+          "persistentUuid": "c632448c-19ef-4b30-ada7-557d0d41c88b",
+          "width": 0,
+          "x": 1875,
+          "y": -107,
+          "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7984,11 +8152,27 @@
           "keepRatio": true,
           "layer": "",
           "name": "Dulce",
-          "persistentUuid": "f73b69ce-48b5-4620-958a-c8782d2fed36",
+          "persistentUuid": "254fb674-b876-4421-82ee-39ca60e5f65d",
           "width": 0,
-          "x": 759,
-          "y": 243,
-          "zOrder": 31,
+          "x": 1769,
+          "y": -76,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bateria",
+          "persistentUuid": "a736b327-1a9f-4067-9e64-811dc98ee68c",
+          "width": 0,
+          "x": 2017,
+          "y": -66,
+          "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8000,28 +8184,27 @@
           "keepRatio": true,
           "layer": "",
           "name": "Dulce",
-          "persistentUuid": "10f8f7f3-9336-444a-8c3d-00472bf3146c",
+          "persistentUuid": "9e29df49-58b2-43f0-83d0-4f339c50d6ac",
           "width": 0,
-          "x": 11,
-          "y": 79,
-          "zOrder": 33,
+          "x": 2243,
+          "y": 134,
+          "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 640,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "SueloNivel4_Colision",
-          "persistentUuid": "5b63216c-88c9-4c52-9411-939d4b5ae046",
-          "width": 4800,
-          "x": 2,
-          "y": -25,
-          "zOrder": 0,
+          "name": "Bateria",
+          "persistentUuid": "a17c4211-f09f-459b-9f4f-c06f4890d937",
+          "width": 0,
+          "x": 2537,
+          "y": 156,
+          "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8033,11 +8216,75 @@
           "keepRatio": true,
           "layer": "",
           "name": "Plataforma_Debil",
-          "persistentUuid": "5c1f61cb-887e-48f4-b557-e3af8b552dcb",
+          "persistentUuid": "84dae64a-d6a3-471f-b536-c758cfc17d67",
           "width": 0,
-          "x": 752,
-          "y": 461,
-          "zOrder": 35,
+          "x": 2609,
+          "y": 124,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fantasma",
+          "persistentUuid": "0742b9e1-3fb0-446b-90f6-18588f7069a3",
+          "width": 0,
+          "x": 2764,
+          "y": 4,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "2145083d-a6df-42fb-9ccb-ff9265673649",
+          "width": 0,
+          "x": 3044,
+          "y": 36,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Cristal",
+          "persistentUuid": "32702c6d-bfc4-4268-9a65-5585e0495469",
+          "width": 0,
+          "x": 3702,
+          "y": 2,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "4956d436-79b9-412b-9e36-12ea1d9f8546",
+          "width": 0,
+          "x": 3326,
+          "y": 100,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8049,11 +8296,107 @@
           "keepRatio": true,
           "layer": "",
           "name": "Plataforma_Levitadora",
-          "persistentUuid": "f522482a-7890-4ab2-b29c-a9f9dc5de882",
+          "persistentUuid": "e3607b31-ee26-4354-9f2b-dd5157fc220c",
           "width": 0,
-          "x": 458,
+          "x": 3832,
+          "y": 94,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Lobo",
+          "persistentUuid": "3616127f-44da-443f-a811-9dc476afce9b",
+          "width": 0,
+          "x": 4036,
+          "y": 224,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bateria",
+          "persistentUuid": "915c7bfe-eec0-4414-bec0-7daa2358e94e",
+          "width": 0,
+          "x": 4127,
+          "y": 249,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Trampolin",
+          "persistentUuid": "22cd924e-ca28-4199-bc21-63219e5c21be",
+          "width": 0,
+          "x": 4228,
+          "y": 250,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Trampolin",
+          "persistentUuid": "b77a79e4-8a07-4c64-b1e6-8a10ef585497",
+          "width": 0,
+          "x": 4458,
+          "y": 150,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bateria",
+          "persistentUuid": "a038f7d2-6d01-4013-accd-2a2bbf6dd5bc",
+          "width": 0,
+          "x": 4388,
+          "y": 162,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dulce",
+          "persistentUuid": "96edc313-ae2b-42f8-912e-a2801baeb798",
+          "width": 0,
+          "x": 4334,
           "y": 156,
-          "zOrder": 36,
+          "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8064,12 +8407,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Plataforma_Trampolin",
-          "persistentUuid": "2e26fe48-9404-4867-90a9-d9136ebbdc8f",
+          "name": "Portal",
+          "persistentUuid": "2bdb93fa-8a10-47c5-863a-bb20ece0afba",
           "width": 0,
-          "x": 1199,
-          "y": 362,
-          "zOrder": 37,
+          "x": 4702,
+          "y": -40,
+          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8080,12 +8423,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Plataforma_Levitadora",
-          "persistentUuid": "c2067ad6-4adc-4ccd-b377-4d154cfde23c",
+          "name": "Posicion_Cristal",
+          "persistentUuid": "b1bd87e9-4176-4265-8729-c03465990e42",
           "width": 0,
-          "x": 1330,
-          "y": 418,
-          "zOrder": 38,
+          "x": 3726,
+          "y": 2,
+          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8096,12 +8439,29 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Plataforma_Trampolin",
-          "persistentUuid": "08a4349a-60c6-45ad-a229-e8438575aa6b",
+          "name": "Murcielago",
+          "persistentUuid": "c84dd235-a94e-44ff-b9aa-aff349270626",
           "width": 0,
-          "x": 648,
-          "y": 352,
-          "zOrder": 39,
+          "x": 4502,
+          "y": -8,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flecha_Direccion",
+          "persistentUuid": "21ea0ce8-dc02-4056-ab64-b0fb92212551",
+          "width": 21,
+          "x": 719,
+          "y": 446,
+          "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8116,7 +8476,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "tilemapJsonFile": "SueloNivel4.json",
+            "tilemapJsonFile": "SueloNivel4.tmj",
             "tilesetJsonFile": "suelo.json",
             "tilemapAtlasImage": "suelo.png",
             "displayMode": "visible",
@@ -8134,15 +8494,15 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
+              "name": "Platform",
               "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             }
           ],
           "content": {
-            "tilemapJsonFile": "SueloNivel4.json",
+            "tilemapJsonFile": "SueloNivel4.tmj",
             "tilesetJsonFile": "suelo.json",
             "collisionMaskTag": "suelo",
             "layerIndex": 1,
@@ -8169,13 +8529,27 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Al comenzar la scena, se muestra la interfaz"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -8183,13 +8557,87 @@
               "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
-              "parameters": ["", "\"Diseño Interfaz\"", "", "", ""]
+              "parameters": [
+                "",
+                "\"Diseño Interfaz\"",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
-              "parameters": ["", "\"Diseño Fondo Bosque\"", "", "", ""]
+              "parameters": [
+                "",
+                "\"Diseño Fondo Bosque\"",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "La cámara sigue al jugador"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Niño",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Forzar Limites de la cámara"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "-78",
+                "1919",
+                "538",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -8275,13 +8723,23 @@
               "type": {
                 "value": "BooleanVariable"
               },
-              "parameters": ["Fragmento", "True", ""]
+              "parameters": [
+                "Fragmento",
+                "True",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Niño", "Portal", "", "", ""]
+              "parameters": [
+                "Niño",
+                "Portal",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -8289,7 +8747,12 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
-              "parameters": ["Portal", "Animation", "=", "\"Portal_Abierto\""]
+              "parameters": [
+                "Portal",
+                "Animation",
+                "=",
+                "\"Portal_Abierto\""
+              ]
             }
           ],
           "events": [
@@ -8311,7 +8774,10 @@
                   "type": {
                     "value": "KeyFromTextPressed"
                   },
-                  "parameters": ["", "\"Up\""]
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
                 }
               ],
               "actions": [
@@ -8319,7 +8785,11 @@
                   "type": {
                     "value": "Scene"
                   },
-                  "parameters": ["", "\"Nivel 5\"", ""]
+                  "parameters": [
+                    "",
+                    "\"Nivel 5\"",
+                    ""
+                  ]
                 }
               ]
             }
@@ -9005,7 +9475,9 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9013,25 +9485,39 @@
               "type": {
                 "value": "Wait"
               },
-              "parameters": ["1"]
+              "parameters": [
+                "1"
+              ]
             },
             {
               "type": {
                 "value": "Scene"
               },
-              "parameters": ["", "\"Nivel 1\"", ""]
+              "parameters": [
+                "",
+                "\"Nivel 1\"",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "SetNumberVariable"
               },
-              "parameters": ["Vida", "=", "3"]
+              "parameters": [
+                "Vida",
+                "=",
+                "3"
+              ]
             },
             {
               "type": {
                 "value": "SetNumberVariable"
               },
-              "parameters": ["Puntos", "=", "0"]
+              "parameters": [
+                "Puntos",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -9443,7 +9929,9 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9451,25 +9939,38 @@
               "type": {
                 "value": "SetBooleanVariable"
               },
-              "parameters": ["Fragmento", "False", ""]
+              "parameters": [
+                "Fragmento",
+                "False",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "Cache"
               },
-              "parameters": ["PosicionInicial_Personaje"]
+              "parameters": [
+                "PosicionInicial_Personaje"
+              ]
             },
             {
               "type": {
                 "value": "Cache"
               },
-              "parameters": ["Posicion_Cristal"]
+              "parameters": [
+                "Posicion_Cristal"
+              ]
             },
             {
               "type": {
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
-              "parameters": ["Niño", "Effect", "\"Effect\"", ""]
+              "parameters": [
+                "Niño",
+                "Effect",
+                "\"Effect\"",
+                ""
+              ]
             }
           ]
         },
@@ -9480,13 +9981,21 @@
               "type": {
                 "value": "SourisSurObjet"
               },
-              "parameters": ["BotonInicio", "", "", ""]
+              "parameters": [
+                "BotonInicio",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "MouseButtonFromTextPressed"
               },
-              "parameters": ["", "\"Left\""]
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
             }
           ],
           "actions": [
@@ -9494,7 +10003,11 @@
               "type": {
                 "value": "Scene"
               },
-              "parameters": ["", "\"Menu\"", ""]
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
             }
           ]
         },
@@ -9526,7 +10039,10 @@
                   "type": {
                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 }
               ],
               "actions": [
@@ -9534,7 +10050,12 @@
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
-                  "parameters": ["Niño", "Animation", "=", "\"Caminar\""]
+                  "parameters": [
+                    "Niño",
+                    "Animation",
+                    "=",
+                    "\"Caminar\""
+                  ]
                 }
               ]
             },
@@ -9546,7 +10067,10 @@
                     "inverted": true,
                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 }
               ],
               "actions": [
@@ -9554,7 +10078,12 @@
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
-                  "parameters": ["Niño", "Animation", "=", "\"Descandar\""]
+                  "parameters": [
+                    "Niño",
+                    "Animation",
+                    "=",
+                    "\"Descandar\""
+                  ]
                 }
               ]
             },
@@ -9565,7 +10094,10 @@
                   "type": {
                     "value": "PlatformBehavior::IsJumping"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 }
               ],
               "actions": [
@@ -9573,13 +10105,22 @@
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
-                  "parameters": ["Niño", "Animation", "=", "\"Salto\""]
+                  "parameters": [
+                    "Niño",
+                    "Animation",
+                    "=",
+                    "\"Salto\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ChangeSprite"
                   },
-                  "parameters": ["Niño", "=", "2"]
+                  "parameters": [
+                    "Niño",
+                    "=",
+                    "2"
+                  ]
                 }
               ]
             },
@@ -9590,7 +10131,10 @@
                   "type": {
                     "value": "PlatformBehavior::IsFalling"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 }
               ],
               "actions": [
@@ -9598,13 +10142,22 @@
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
-                  "parameters": ["Niño", "Animation", "=", "\"Salto\""]
+                  "parameters": [
+                    "Niño",
+                    "Animation",
+                    "=",
+                    "\"Salto\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ChangeSprite"
                   },
-                  "parameters": ["Niño", "=", "3"]
+                  "parameters": [
+                    "Niño",
+                    "=",
+                    "3"
+                  ]
                 }
               ]
             },
@@ -9615,7 +10168,11 @@
                   "type": {
                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
                   },
-                  "parameters": ["Niño", "PlatformerObject", "\"Left\""]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
                 }
               ],
               "actions": [
@@ -9623,7 +10180,11 @@
                   "type": {
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
-                  "parameters": ["Niño", "Flippable", "yes"]
+                  "parameters": [
+                    "Niño",
+                    "Flippable",
+                    "yes"
+                  ]
                 }
               ]
             },
@@ -9634,7 +10195,11 @@
                   "type": {
                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
                   },
-                  "parameters": ["Niño", "PlatformerObject", "\"Right\""]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
                 }
               ],
               "actions": [
@@ -9642,7 +10207,11 @@
                   "type": {
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
-                  "parameters": ["Niño", "Flippable", "no"]
+                  "parameters": [
+                    "Niño",
+                    "Flippable",
+                    "no"
+                  ]
                 }
               ]
             }
@@ -9677,7 +10246,11 @@
                   "type": {
                     "value": "PosY"
                   },
-                  "parameters": ["Niño", ">", "535"]
+                  "parameters": [
+                    "Niño",
+                    ">",
+                    "535"
+                  ]
                 },
                 {
                   "type": {
@@ -9716,7 +10289,11 @@
                   "type": {
                     "value": "NumberVariable"
                   },
-                  "parameters": ["Vida", "=", "0"]
+                  "parameters": [
+                    "Vida",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -9724,13 +10301,19 @@
                   "type": {
                     "value": "Wait"
                   },
-                  "parameters": ["0.5"]
+                  "parameters": [
+                    "0.5"
+                  ]
                 },
                 {
                   "type": {
                     "value": "Scene"
                   },
-                  "parameters": ["", "\"Game Over\"", ""]
+                  "parameters": [
+                    "",
+                    "\"Game Over\"",
+                    ""
+                  ]
                 }
               ]
             }
@@ -9765,7 +10348,13 @@
                   "type": {
                     "value": "CollisionNP"
                   },
-                  "parameters": ["Niño", "Dulce", "", "", ""]
+                  "parameters": [
+                    "Niño",
+                    "Dulce",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -9773,13 +10362,20 @@
                   "type": {
                     "value": "Delete"
                   },
-                  "parameters": ["Dulce", ""]
+                  "parameters": [
+                    "Dulce",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetNumberVariable"
                   },
-                  "parameters": ["Puntos", "+", "1"]
+                  "parameters": [
+                    "Puntos",
+                    "+",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -9802,7 +10398,11 @@
                   "type": {
                     "value": "NumberVariable"
                   },
-                  "parameters": ["Puntos", ">=", "10"]
+                  "parameters": [
+                    "Puntos",
+                    ">=",
+                    "10"
+                  ]
                 }
               ],
               "actions": [
@@ -9810,13 +10410,21 @@
                   "type": {
                     "value": "SetNumberVariable"
                   },
-                  "parameters": ["Vida", "+", "1"]
+                  "parameters": [
+                    "Vida",
+                    "+",
+                    "1"
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetNumberVariable"
                   },
-                  "parameters": ["Puntos", "=", "0"]
+                  "parameters": [
+                    "Puntos",
+                    "=",
+                    "0"
+                  ]
                 }
               ]
             }
@@ -9843,13 +10451,23 @@
               "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
-              "parameters": ["Texto_Vida", "Text", "=", "Vida"]
+              "parameters": [
+                "Texto_Vida",
+                "Text",
+                "=",
+                "Vida"
+              ]
             },
             {
               "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
-              "parameters": ["Texto_Puntos", "Text", "=", "Puntos"]
+              "parameters": [
+                "Texto_Puntos",
+                "Text",
+                "=",
+                "Puntos"
+              ]
             }
           ]
         },
@@ -9883,7 +10501,13 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Niño", "Cristal", "", "", ""]
+              "parameters": [
+                "Niño",
+                "Cristal",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [],
@@ -9903,7 +10527,11 @@
                   "type": {
                     "value": "SetBooleanVariable"
                   },
-                  "parameters": ["Fragmento", "True", ""]
+                  "parameters": [
+                    "Fragmento",
+                    "True",
+                    ""
+                  ]
                 }
               ]
             }
@@ -9928,7 +10556,11 @@
               "type": {
                 "value": "BooleanVariable"
               },
-              "parameters": ["Fragmento", "=", ""]
+              "parameters": [
+                "Fragmento",
+                "=",
+                ""
+              ]
             },
             {
               "type": {
@@ -9942,7 +10574,10 @@
               "type": {
                 "value": "ChangeColor"
               },
-              "parameters": ["Interzaz_Fragmento", "\"78;78;78\""]
+              "parameters": [
+                "Interzaz_Fragmento",
+                "\"78;78;78\""
+              ]
             }
           ]
         },
@@ -9965,7 +10600,11 @@
               "type": {
                 "value": "BooleanVariable"
               },
-              "parameters": ["Fragmento", "True", ""]
+              "parameters": [
+                "Fragmento",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9973,7 +10612,9 @@
               "type": {
                 "value": "Cache"
               },
-              "parameters": ["Cristal"]
+              "parameters": [
+                "Cristal"
+              ]
             }
           ],
           "events": [
@@ -9992,7 +10633,10 @@
                   "type": {
                     "value": "ChangeColor"
                   },
-                  "parameters": ["Interzaz_Fragmento", "\"255;255;255\""]
+                  "parameters": [
+                    "Interzaz_Fragmento",
+                    "\"255;255;255\""
+                  ]
                 }
               ]
             }
@@ -10024,25 +10668,41 @@
               "type": {
                 "value": "SetNumberVariable"
               },
-              "parameters": ["Vida", "-", "1"]
+              "parameters": [
+                "Vida",
+                "-",
+                "1"
+              ]
             },
             {
               "type": {
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
-              "parameters": ["Niño", "Effect", "\"Effect\"", "yes"]
+              "parameters": [
+                "Niño",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
             },
             {
               "type": {
                 "value": "ActivateBehavior"
               },
-              "parameters": ["Niño", "PlatformerObject", ""]
+              "parameters": [
+                "Niño",
+                "PlatformerObject",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
               },
-              "parameters": ["Niño", "Animation"]
+              "parameters": [
+                "Niño",
+                "Animation"
+              ]
             }
           ],
           "events": [
@@ -10054,7 +10714,9 @@
                   "type": {
                     "value": "Wait"
                   },
-                  "parameters": ["0.5"]
+                  "parameters": [
+                    "0.5"
+                  ]
                 },
                 {
                   "type": {
@@ -10072,25 +10734,41 @@
                   "type": {
                     "value": "ActivateBehavior"
                   },
-                  "parameters": ["Niño", "PlatformerObject", "yes"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject",
+                    "yes"
+                  ]
                 },
                 {
                   "type": {
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
-                  "parameters": ["Niño", "Effect", "\"Effect\"", "no"]
+                  "parameters": [
+                    "Niño",
+                    "Effect",
+                    "\"Effect\"",
+                    "no"
+                  ]
                 },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
                   },
-                  "parameters": ["Niño", "Animation"]
+                  "parameters": [
+                    "Niño",
+                    "Animation"
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetBooleanVariable"
                   },
-                  "parameters": ["Fragmento", "False", ""]
+                  "parameters": [
+                    "Fragmento",
+                    "False",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -10108,13 +10786,20 @@
                   "type": {
                     "value": "Montre"
                   },
-                  "parameters": ["Cristal", ""]
+                  "parameters": [
+                    "Cristal",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetNumberVariable"
                   },
-                  "parameters": ["BateriaLinterna", "=", "100"]
+                  "parameters": [
+                    "BateriaLinterna",
+                    "=",
+                    "100"
+                  ]
                 }
               ]
             }
@@ -10238,31 +10923,61 @@
                   "type": {
                     "value": "SetCameraCenterY"
                   },
-                  "parameters": ["", "=", "CameraCenterY()", "\"Fondo5\"", ""]
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"Fondo5\"",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetCameraCenterY"
                   },
-                  "parameters": ["", "=", "CameraCenterY()", "\"Fondo4\"", ""]
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"Fondo4\"",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetCameraCenterY"
                   },
-                  "parameters": ["", "=", "CameraCenterY()", "\"Fondo3\"", ""]
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"Fondo3\"",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetCameraCenterY"
                   },
-                  "parameters": ["", "=", "CameraCenterY()", "\"Fondo2\"", ""]
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"Fondo2\"",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetCameraCenterY"
                   },
-                  "parameters": ["", "=", "CameraCenterY()", "\"Fondo1\"", ""]
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"Fondo1\"",
+                    ""
+                  ]
                 }
               ]
             }
@@ -10282,7 +10997,9 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -10290,7 +11007,9 @@
               "type": {
                 "value": "Cache"
               },
-              "parameters": ["Flecha_Direccion"]
+              "parameters": [
+                "Flecha_Direccion"
+              ]
             }
           ]
         },
@@ -10473,7 +11192,13 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Niño", "Plataforma_Debil", "", "", ""]
+              "parameters": [
+                "Niño",
+                "Plataforma_Debil",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -10481,19 +11206,27 @@
               "type": {
                 "value": "Wait"
               },
-              "parameters": ["1"]
+              "parameters": [
+                "1"
+              ]
             },
             {
               "type": {
                 "value": "Cache"
               },
-              "parameters": ["Plataforma_Debil"]
+              "parameters": [
+                "Plataforma_Debil"
+              ]
             },
             {
               "type": {
                 "value": "ActivateBehavior"
               },
-              "parameters": ["Plataforma_Debil", "Platform", ""]
+              "parameters": [
+                "Plataforma_Debil",
+                "Platform",
+                ""
+              ]
             }
           ]
         },
@@ -10505,7 +11238,9 @@
                 "inverted": true,
                 "value": "Visible"
               },
-              "parameters": ["Plataforma_Debil"]
+              "parameters": [
+                "Plataforma_Debil"
+              ]
             }
           ],
           "actions": [
@@ -10513,19 +11248,28 @@
               "type": {
                 "value": "Wait"
               },
-              "parameters": ["1"]
+              "parameters": [
+                "1"
+              ]
             },
             {
               "type": {
                 "value": "Montre"
               },
-              "parameters": ["Plataforma_Debil", ""]
+              "parameters": [
+                "Plataforma_Debil",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "ActivateBehavior"
               },
-              "parameters": ["Plataforma_Debil", "Platform", "yes"]
+              "parameters": [
+                "Plataforma_Debil",
+                "Platform",
+                "yes"
+              ]
             }
           ]
         }
@@ -10555,13 +11299,22 @@
               "type": {
                 "value": "PlatformBehavior::SimulateControl"
               },
-              "parameters": ["Niño", "PlatformerObject", "\"Jump\""]
+              "parameters": [
+                "Niño",
+                "PlatformerObject",
+                "\"Jump\""
+              ]
             },
             {
               "type": {
                 "value": "PlatformBehavior::JumpSpeed"
               },
-              "parameters": ["Niño", "PlatformerObject", "=", "300"]
+              "parameters": [
+                "Niño",
+                "PlatformerObject",
+                "=",
+                "300"
+              ]
             }
           ]
         },
@@ -10592,7 +11345,12 @@
               "type": {
                 "value": "PlatformBehavior::JumpSpeed"
               },
-              "parameters": ["Niño", "PlatformerObject", "=", "250"]
+              "parameters": [
+                "Niño",
+                "PlatformerObject",
+                "=",
+                "250"
+              ]
             }
           ]
         }
@@ -10621,7 +11379,12 @@
               "type": {
                 "value": "Distance"
               },
-              "parameters": ["Fantasma", "Niño", "300", ""]
+              "parameters": [
+                "Fantasma",
+                "Niño",
+                "300",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -10629,7 +11392,12 @@
               "type": {
                 "value": "SetBooleanObjectVariable"
               },
-              "parameters": ["Fantasma", "PuedeMoverse", "True", ""]
+              "parameters": [
+                "Fantasma",
+                "PuedeMoverse",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -10652,7 +11420,12 @@
               "type": {
                 "value": "BooleanObjectVariable"
               },
-              "parameters": ["Fantasma", "PuedeMoverse", "True", ""]
+              "parameters": [
+                "Fantasma",
+                "PuedeMoverse",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [],
@@ -10676,7 +11449,12 @@
                   "type": {
                     "value": "BooleanObjectVariable"
                   },
-                  "parameters": ["Fantasma", "Direccion", "=", ""]
+                  "parameters": [
+                    "Fantasma",
+                    "Direccion",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -10684,13 +11462,21 @@
                   "type": {
                     "value": "PlatformBehavior::SimulateControl"
                   },
-                  "parameters": ["Fantasma", "PlatformerObject", "\"Left\""]
+                  "parameters": [
+                    "Fantasma",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
-                  "parameters": ["Fantasma", "Flippable", "yes"]
+                  "parameters": [
+                    "Fantasma",
+                    "Flippable",
+                    "yes"
+                  ]
                 }
               ]
             },
@@ -10713,7 +11499,12 @@
                   "type": {
                     "value": "BooleanObjectVariable"
                   },
-                  "parameters": ["Fantasma", "Direccion", "True", ""]
+                  "parameters": [
+                    "Fantasma",
+                    "Direccion",
+                    "True",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -10721,13 +11512,21 @@
                   "type": {
                     "value": "PlatformBehavior::SimulateControl"
                   },
-                  "parameters": ["Fantasma", "PlatformerObject", "\"Right\""]
+                  "parameters": [
+                    "Fantasma",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
-                  "parameters": ["Fantasma", "Flippable", "no"]
+                  "parameters": [
+                    "Fantasma",
+                    "Flippable",
+                    "no"
+                  ]
                 }
               ]
             }
@@ -10753,7 +11552,12 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
-              "parameters": ["Fantasma", "Animation", "!=", "\"Muerte\""]
+              "parameters": [
+                "Fantasma",
+                "Animation",
+                "!=",
+                "\"Muerte\""
+              ]
             }
           ],
           "actions": [],
@@ -10765,7 +11569,13 @@
                   "type": {
                     "value": "CollisionNP"
                   },
-                  "parameters": ["Fantasma", "Flecha_Direccion", "", "", ""]
+                  "parameters": [
+                    "Fantasma",
+                    "Flecha_Direccion",
+                    "",
+                    "",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -10784,7 +11594,12 @@
                   "type": {
                     "value": "SetBooleanObjectVariable"
                   },
-                  "parameters": ["Fantasma", "Direccion", "False", ""]
+                  "parameters": [
+                    "Fantasma",
+                    "Direccion",
+                    "False",
+                    ""
+                  ]
                 }
               ]
             },
@@ -10795,7 +11610,13 @@
                   "type": {
                     "value": "CollisionNP"
                   },
-                  "parameters": ["Fantasma", "Flecha_Direccion", "", "", ""]
+                  "parameters": [
+                    "Fantasma",
+                    "Flecha_Direccion",
+                    "",
+                    "",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -10814,7 +11635,12 @@
                   "type": {
                     "value": "SetBooleanObjectVariable"
                   },
-                  "parameters": ["Fantasma", "Direccion", "True", ""]
+                  "parameters": [
+                    "Fantasma",
+                    "Direccion",
+                    "True",
+                    ""
+                  ]
                 }
               ]
             }
@@ -10839,13 +11665,24 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Niño", "Fantasma", "", "", ""]
+              "parameters": [
+                "Niño",
+                "Fantasma",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
-              "parameters": ["Fantasma", "Animation", "!=", "\"Muerte\""]
+              "parameters": [
+                "Fantasma",
+                "Animation",
+                "!=",
+                "\"Muerte\""
+              ]
             },
             {
               "type": {
@@ -10875,7 +11712,10 @@
                   "type": {
                     "value": "PlatformBehavior::IsFalling"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 }
               ],
               "actions": [
@@ -10883,31 +11723,51 @@
                   "type": {
                     "value": "PlatformBehavior::SetCanJump"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 },
                 {
                   "type": {
                     "value": "PlatformBehavior::SimulateControl"
                   },
-                  "parameters": ["Niño", "PlatformerObject", "\"Jump\""]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject",
+                    "\"Jump\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ActivateBehavior"
                   },
-                  "parameters": ["Fantasma", "PlatformerObject", "no"]
+                  "parameters": [
+                    "Fantasma",
+                    "PlatformerObject",
+                    "no"
+                  ]
                 },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
-                  "parameters": ["Fantasma", "Animation", "=", "\"Muerte\""]
+                  "parameters": [
+                    "Fantasma",
+                    "Animation",
+                    "=",
+                    "\"Muerte\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetNumberVariable"
                   },
-                  "parameters": ["Puntos", "+", "1"]
+                  "parameters": [
+                    "Puntos",
+                    "+",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -10969,7 +11829,9 @@
                       "type": {
                         "value": "Wait"
                       },
-                      "parameters": ["0.5"]
+                      "parameters": [
+                        "0.5"
+                      ]
                     },
                     {
                       "type": {
@@ -11007,7 +11869,9 @@
                       "type": {
                         "value": "Wait"
                       },
-                      "parameters": ["0.5"]
+                      "parameters": [
+                        "0.5"
+                      ]
                     },
                     {
                       "type": {
@@ -11035,7 +11899,10 @@
                     "inverted": true,
                     "value": "PlatformBehavior::IsFalling"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 }
               ],
               "actions": [],
@@ -11076,7 +11943,12 @@
               "type": {
                 "value": "Distance"
               },
-              "parameters": ["Lobo", "Niño", "300", ""]
+              "parameters": [
+                "Lobo",
+                "Niño",
+                "300",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -11084,7 +11956,12 @@
               "type": {
                 "value": "SetBooleanObjectVariable"
               },
-              "parameters": ["Lobo", "PuedeMoverse", "True", ""]
+              "parameters": [
+                "Lobo",
+                "PuedeMoverse",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -11107,7 +11984,12 @@
               "type": {
                 "value": "BooleanObjectVariable"
               },
-              "parameters": ["Lobo", "PuedeMoverse", "True", ""]
+              "parameters": [
+                "Lobo",
+                "PuedeMoverse",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [],
@@ -11131,7 +12013,12 @@
                   "type": {
                     "value": "BooleanObjectVariable"
                   },
-                  "parameters": ["Lobo", "Direccion", "=", ""]
+                  "parameters": [
+                    "Lobo",
+                    "Direccion",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -11139,13 +12026,21 @@
                   "type": {
                     "value": "PlatformBehavior::SimulateControl"
                   },
-                  "parameters": ["Lobo", "PlatformerObject", "\"Left\""]
+                  "parameters": [
+                    "Lobo",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
-                  "parameters": ["Lobo", "Flippable", "yes"]
+                  "parameters": [
+                    "Lobo",
+                    "Flippable",
+                    "yes"
+                  ]
                 }
               ]
             },
@@ -11168,7 +12063,12 @@
                   "type": {
                     "value": "BooleanObjectVariable"
                   },
-                  "parameters": ["Lobo", "Direccion", "True", ""]
+                  "parameters": [
+                    "Lobo",
+                    "Direccion",
+                    "True",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -11176,13 +12076,21 @@
                   "type": {
                     "value": "PlatformBehavior::SimulateControl"
                   },
-                  "parameters": ["Lobo", "PlatformerObject", "\"Right\""]
+                  "parameters": [
+                    "Lobo",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
-                  "parameters": ["Lobo", "Flippable", "no"]
+                  "parameters": [
+                    "Lobo",
+                    "Flippable",
+                    "no"
+                  ]
                 }
               ]
             }
@@ -11208,7 +12116,12 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
-              "parameters": ["Lobo", "Animation", "!=", "\"Muerte\""]
+              "parameters": [
+                "Lobo",
+                "Animation",
+                "!=",
+                "\"Muerte\""
+              ]
             }
           ],
           "actions": [],
@@ -11220,7 +12133,13 @@
                   "type": {
                     "value": "CollisionNP"
                   },
-                  "parameters": ["Lobo", "Flecha_Direccion", "", "", ""]
+                  "parameters": [
+                    "Lobo",
+                    "Flecha_Direccion",
+                    "",
+                    "",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -11239,7 +12158,12 @@
                   "type": {
                     "value": "SetBooleanObjectVariable"
                   },
-                  "parameters": ["Lobo", "Direccion", "False", ""]
+                  "parameters": [
+                    "Lobo",
+                    "Direccion",
+                    "False",
+                    ""
+                  ]
                 }
               ]
             },
@@ -11250,7 +12174,13 @@
                   "type": {
                     "value": "CollisionNP"
                   },
-                  "parameters": ["Lobo", "Flecha_Direccion", "", "", ""]
+                  "parameters": [
+                    "Lobo",
+                    "Flecha_Direccion",
+                    "",
+                    "",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -11269,7 +12199,12 @@
                   "type": {
                     "value": "SetBooleanObjectVariable"
                   },
-                  "parameters": ["Lobo", "Direccion", "True", ""]
+                  "parameters": [
+                    "Lobo",
+                    "Direccion",
+                    "True",
+                    ""
+                  ]
                 }
               ]
             }
@@ -11294,13 +12229,24 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Niño", "Lobo", "", "", ""]
+              "parameters": [
+                "Niño",
+                "Lobo",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
-              "parameters": ["Lobo", "Animation", "!=", "\"Muerte\""]
+              "parameters": [
+                "Lobo",
+                "Animation",
+                "!=",
+                "\"Muerte\""
+              ]
             },
             {
               "type": {
@@ -11330,7 +12276,10 @@
                   "type": {
                     "value": "PlatformBehavior::IsFalling"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 }
               ],
               "actions": [
@@ -11338,31 +12287,51 @@
                   "type": {
                     "value": "PlatformBehavior::SetCanJump"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 },
                 {
                   "type": {
                     "value": "PlatformBehavior::SimulateControl"
                   },
-                  "parameters": ["Niño", "PlatformerObject", "\"Jump\""]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject",
+                    "\"Jump\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ActivateBehavior"
                   },
-                  "parameters": ["Lobo", "PlatformerObject", "no"]
+                  "parameters": [
+                    "Lobo",
+                    "PlatformerObject",
+                    "no"
+                  ]
                 },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
-                  "parameters": ["Lobo", "Animation", "=", "\"Muerte\""]
+                  "parameters": [
+                    "Lobo",
+                    "Animation",
+                    "=",
+                    "\"Muerte\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetNumberVariable"
                   },
-                  "parameters": ["Puntos", "+", "1"]
+                  "parameters": [
+                    "Puntos",
+                    "+",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -11424,7 +12393,9 @@
                       "type": {
                         "value": "Wait"
                       },
-                      "parameters": ["0.5"]
+                      "parameters": [
+                        "0.5"
+                      ]
                     },
                     {
                       "type": {
@@ -11462,7 +12433,9 @@
                       "type": {
                         "value": "Wait"
                       },
-                      "parameters": ["0.5"]
+                      "parameters": [
+                        "0.5"
+                      ]
                     },
                     {
                       "type": {
@@ -11490,7 +12463,10 @@
                     "inverted": true,
                     "value": "PlatformBehavior::IsFalling"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 }
               ],
               "actions": [],
@@ -11531,7 +12507,9 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -11539,13 +12517,23 @@
               "type": {
                 "value": "SetNumberObjectVariable"
               },
-              "parameters": ["Murcielago", "AlturaBase", "=", "Murcielago.Y()"]
+              "parameters": [
+                "Murcielago",
+                "AlturaBase",
+                "=",
+                "Murcielago.Y()"
+              ]
             },
             {
               "type": {
                 "value": "SetNumberObjectVariable"
               },
-              "parameters": ["Murcielago", "Direccion", "=", "1"]
+              "parameters": [
+                "Murcielago",
+                "Direccion",
+                "=",
+                "1"
+              ]
             },
             {
               "type": {
@@ -11582,13 +12570,22 @@
               "type": {
                 "value": "Tween::HasFinished"
               },
-              "parameters": ["Murcielago", "Tween", "\"vuelo\""]
+              "parameters": [
+                "Murcielago",
+                "Tween",
+                "\"vuelo\""
+              ]
             },
             {
               "type": {
                 "value": "NumberObjectVariable"
               },
-              "parameters": ["Murcielago", "Direccion", "=", "1"]
+              "parameters": [
+                "Murcielago",
+                "Direccion",
+                "=",
+                "1"
+              ]
             }
           ],
           "actions": [
@@ -11596,7 +12593,12 @@
               "type": {
                 "value": "SetNumberObjectVariable"
               },
-              "parameters": ["Murcielago", "Direccion", "=", "-1"]
+              "parameters": [
+                "Murcielago",
+                "Direccion",
+                "=",
+                "-1"
+              ]
             },
             {
               "type": {
@@ -11621,13 +12623,22 @@
               "type": {
                 "value": "Tween::HasFinished"
               },
-              "parameters": ["Murcielago", "Tween", "\"vuelo\""]
+              "parameters": [
+                "Murcielago",
+                "Tween",
+                "\"vuelo\""
+              ]
             },
             {
               "type": {
                 "value": "NumberObjectVariable"
               },
-              "parameters": ["Murcielago", "Direccion", "=", "-1"]
+              "parameters": [
+                "Murcielago",
+                "Direccion",
+                "=",
+                "-1"
+              ]
             }
           ],
           "actions": [
@@ -11635,7 +12646,12 @@
               "type": {
                 "value": "SetNumberObjectVariable"
               },
-              "parameters": ["Murcielago", "Direccion", "=", "1"]
+              "parameters": [
+                "Murcielago",
+                "Direccion",
+                "=",
+                "1"
+              ]
             },
             {
               "type": {
@@ -11672,13 +12688,24 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Niño", "Murcielago", "", "", ""]
+              "parameters": [
+                "Niño",
+                "Murcielago",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
-              "parameters": ["Murcielago", "Animation", "!=", "\"Muerte\""]
+              "parameters": [
+                "Murcielago",
+                "Animation",
+                "!=",
+                "\"Muerte\""
+              ]
             },
             {
               "type": {
@@ -11708,7 +12735,10 @@
                   "type": {
                     "value": "PlatformBehavior::IsFalling"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 }
               ],
               "actions": [
@@ -11716,25 +12746,41 @@
                   "type": {
                     "value": "PlatformBehavior::SetCanJump"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 },
                 {
                   "type": {
                     "value": "PlatformBehavior::SimulateControl"
                   },
-                  "parameters": ["Niño", "PlatformerObject", "\"Jump\""]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject",
+                    "\"Jump\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
-                  "parameters": ["Murcielago", "Animation", "=", "\"Muerte\""]
+                  "parameters": [
+                    "Murcielago",
+                    "Animation",
+                    "=",
+                    "\"Muerte\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetNumberVariable"
                   },
-                  "parameters": ["Puntos", "+", "1"]
+                  "parameters": [
+                    "Puntos",
+                    "+",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -11796,7 +12842,9 @@
                       "type": {
                         "value": "Wait"
                       },
-                      "parameters": ["0.5"]
+                      "parameters": [
+                        "0.5"
+                      ]
                     },
                     {
                       "type": {
@@ -11834,7 +12882,9 @@
                       "type": {
                         "value": "Wait"
                       },
-                      "parameters": ["0.5"]
+                      "parameters": [
+                        "0.5"
+                      ]
                     },
                     {
                       "type": {
@@ -11862,7 +12912,10 @@
                     "inverted": true,
                     "value": "PlatformBehavior::IsFalling"
                   },
-                  "parameters": ["Niño", "PlatformerObject"]
+                  "parameters": [
+                    "Niño",
+                    "PlatformerObject"
+                  ]
                 }
               ],
               "actions": [],
@@ -11903,7 +12956,9 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -11911,19 +12966,29 @@
               "type": {
                 "value": "SetNumberVariable"
               },
-              "parameters": ["BateriaLinterna", "=", "100"]
+              "parameters": [
+                "BateriaLinterna",
+                "=",
+                "100"
+              ]
             },
             {
               "type": {
                 "value": "ResetTimer"
               },
-              "parameters": ["", "\"ConsumoBateria\""]
+              "parameters": [
+                "",
+                "\"ConsumoBateria\""
+              ]
             },
             {
               "type": {
                 "value": "Lighting::SetRadius"
               },
-              "parameters": ["LuzPersonaje", "300"]
+              "parameters": [
+                "LuzPersonaje",
+                "300"
+              ]
             }
           ]
         },
@@ -11946,13 +13011,22 @@
               "type": {
                 "value": "CompareTimer"
               },
-              "parameters": ["", "\"ConsumoBateria\"", ">", "2"]
+              "parameters": [
+                "",
+                "\"ConsumoBateria\"",
+                ">",
+                "2"
+              ]
             },
             {
               "type": {
                 "value": "NumberVariable"
               },
-              "parameters": ["BateriaLinterna", ">", "0"]
+              "parameters": [
+                "BateriaLinterna",
+                ">",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -11960,13 +13034,20 @@
               "type": {
                 "value": "SetNumberVariable"
               },
-              "parameters": ["BateriaLinterna", "-", "5"]
+              "parameters": [
+                "BateriaLinterna",
+                "-",
+                "5"
+              ]
             },
             {
               "type": {
                 "value": "ResetTimer"
               },
-              "parameters": ["", "\"ConsumoBateria\""]
+              "parameters": [
+                "",
+                "\"ConsumoBateria\""
+              ]
             }
           ]
         },
@@ -12028,7 +13109,13 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Niño", "Bateria", "", "", ""]
+              "parameters": [
+                "Niño",
+                "Bateria",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -12036,7 +13123,10 @@
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["Bateria", ""]
+              "parameters": [
+                "Bateria",
+                ""
+              ]
             },
             {
               "type": {
@@ -12052,7 +13142,10 @@
               "type": {
                 "value": "ResetTimer"
               },
-              "parameters": ["", "\"ConsumoBateria\""]
+              "parameters": [
+                "",
+                "\"ConsumoBateria\""
+              ]
             }
           ]
         },
@@ -12075,7 +13168,11 @@
               "type": {
                 "value": "NumberVariable"
               },
-              "parameters": ["BateriaLinterna", ">=", "76"]
+              "parameters": [
+                "BateriaLinterna",
+                ">=",
+                "76"
+              ]
             }
           ],
           "actions": [
@@ -12083,7 +13180,12 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
-              "parameters": ["Interfaz_Bateria", "Animation", "=", "0"]
+              "parameters": [
+                "Interfaz_Bateria",
+                "Animation",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -12094,13 +13196,21 @@
               "type": {
                 "value": "NumberVariable"
               },
-              "parameters": ["BateriaLinterna", ">=", "51"]
+              "parameters": [
+                "BateriaLinterna",
+                ">=",
+                "51"
+              ]
             },
             {
               "type": {
                 "value": "NumberVariable"
               },
-              "parameters": ["BateriaLinterna", "<", "76"]
+              "parameters": [
+                "BateriaLinterna",
+                "<",
+                "76"
+              ]
             }
           ],
           "actions": [
@@ -12108,7 +13218,12 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
-              "parameters": ["Interfaz_Bateria", "Animation", "=", "1"]
+              "parameters": [
+                "Interfaz_Bateria",
+                "Animation",
+                "=",
+                "1"
+              ]
             }
           ]
         },
@@ -12119,13 +13234,21 @@
               "type": {
                 "value": "NumberVariable"
               },
-              "parameters": ["BateriaLinterna", ">=", "26"]
+              "parameters": [
+                "BateriaLinterna",
+                ">=",
+                "26"
+              ]
             },
             {
               "type": {
                 "value": "NumberVariable"
               },
-              "parameters": ["BateriaLinterna", "<", "51"]
+              "parameters": [
+                "BateriaLinterna",
+                "<",
+                "51"
+              ]
             }
           ],
           "actions": [
@@ -12133,7 +13256,12 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
-              "parameters": ["Interfaz_Bateria", "Animation", "=", "2"]
+              "parameters": [
+                "Interfaz_Bateria",
+                "Animation",
+                "=",
+                "2"
+              ]
             }
           ]
         },
@@ -12144,13 +13272,21 @@
               "type": {
                 "value": "NumberVariable"
               },
-              "parameters": ["BateriaLinterna", ">=", "1"]
+              "parameters": [
+                "BateriaLinterna",
+                ">=",
+                "1"
+              ]
             },
             {
               "type": {
                 "value": "NumberVariable"
               },
-              "parameters": ["BateriaLinterna", "<", "26"]
+              "parameters": [
+                "BateriaLinterna",
+                "<",
+                "26"
+              ]
             }
           ],
           "actions": [
@@ -12158,7 +13294,12 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
-              "parameters": ["Interfaz_Bateria", "Animation", "=", "3"]
+              "parameters": [
+                "Interfaz_Bateria",
+                "Animation",
+                "=",
+                "3"
+              ]
             }
           ]
         },
@@ -12181,7 +13322,11 @@
               "type": {
                 "value": "NumberVariable"
               },
-              "parameters": ["BateriaLinterna", "<=", "0"]
+              "parameters": [
+                "BateriaLinterna",
+                "<=",
+                "0"
+              ]
             },
             {
               "type": {
@@ -12195,19 +13340,31 @@
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
-              "parameters": ["Interfaz_Bateria", "Animation", "=", "4"]
+              "parameters": [
+                "Interfaz_Bateria",
+                "Animation",
+                "=",
+                "4"
+              ]
             },
             {
               "type": {
                 "value": "SetNumberVariable"
               },
-              "parameters": ["BateriaLinterna", "=", "0"]
+              "parameters": [
+                "BateriaLinterna",
+                "=",
+                "0"
+              ]
             },
             {
               "type": {
                 "value": "Lighting::SetRadius"
               },
-              "parameters": ["LuzPersonaje", "0"]
+              "parameters": [
+                "LuzPersonaje",
+                "0"
+              ]
             }
           ],
           "events": [
@@ -12335,7 +13492,13 @@
                     "inverted": true,
                     "value": "Flash::ColorTint"
                   },
-                  "parameters": ["", "=", "\"255;255;255\"", "Object", ""]
+                  "parameters": [
+                    "",
+                    "=",
+                    "\"255;255;255\"",
+                    "Object",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -12343,7 +13506,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             }
@@ -12426,7 +13591,10 @@
                       "type": {
                         "value": "ChangeColor"
                       },
-                      "parameters": ["Object", "ColorTint"]
+                      "parameters": [
+                        "Object",
+                        "ColorTint"
+                      ]
                     },
                     {
                       "type": {
@@ -12514,7 +13682,11 @@
                   "type": {
                     "value": "SetObjectVariableAsBoolean"
                   },
-                  "parameters": ["Object", "__Flash_VisibilityToggled", "False"]
+                  "parameters": [
+                    "Object",
+                    "__Flash_VisibilityToggled",
+                    "False"
+                  ]
                 }
               ]
             },
@@ -12525,7 +13697,9 @@
                   "type": {
                     "value": "Visible"
                   },
-                  "parameters": ["Object"]
+                  "parameters": [
+                    "Object"
+                  ]
                 }
               ],
               "actions": [
@@ -12533,13 +13707,19 @@
                   "type": {
                     "value": "Cache"
                   },
-                  "parameters": ["Object"]
+                  "parameters": [
+                    "Object"
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetObjectVariableAsBoolean"
                   },
-                  "parameters": ["Object", "__Flash_VisibilityToggled", "True"]
+                  "parameters": [
+                    "Object",
+                    "__Flash_VisibilityToggled",
+                    "True"
+                  ]
                 }
               ]
             },
@@ -12550,14 +13730,20 @@
                   "type": {
                     "value": "ObjectVariableAsBoolean"
                   },
-                  "parameters": ["Object", "__Flash_VisibilityToggled", "False"]
+                  "parameters": [
+                    "Object",
+                    "__Flash_VisibilityToggled",
+                    "False"
+                  ]
                 },
                 {
                   "type": {
                     "inverted": true,
                     "value": "Visible"
                   },
-                  "parameters": ["Object"]
+                  "parameters": [
+                    "Object"
+                  ]
                 }
               ],
               "actions": [
@@ -12565,7 +13751,10 @@
                   "type": {
                     "value": "Montre"
                   },
-                  "parameters": ["Object", ""]
+                  "parameters": [
+                    "Object",
+                    ""
+                  ]
                 }
               ]
             }
@@ -12600,7 +13789,11 @@
                       "type": {
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -12634,7 +13827,11 @@
                               "type": {
                                 "value": "Flash::ToggleVisibility"
                               },
-                              "parameters": ["", "Object", ""]
+                              "parameters": [
+                                "",
+                                "Object",
+                                ""
+                              ]
                             },
                             {
                               "type": {
@@ -12666,7 +13863,11 @@
                               "type": {
                                 "value": "NumberVariable"
                               },
-                              "parameters": ["FlashDuration", ">", "0"]
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
                             },
                             {
                               "type": {
@@ -12685,7 +13886,11 @@
                               "type": {
                                 "value": "Flash::Flash::Stop"
                               },
-                              "parameters": ["Object", "Behavior", ""]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
                             }
                           ]
                         }
@@ -12725,7 +13930,11 @@
                         "inverted": true,
                         "value": "Flash::Flash::IsFlashing"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -12733,19 +13942,30 @@
                       "type": {
                         "value": "Flash::ToggleVisibility"
                       },
-                      "parameters": ["", "Object", ""]
+                      "parameters": [
+                        "",
+                        "Object",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetBooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "ResetObjectTimer"
                       },
-                      "parameters": ["Object", "\"Flash_Visibility_Timer\""]
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Visibility_Timer\""
+                      ]
                     }
                   ]
                 },
@@ -12766,7 +13986,11 @@
                       "type": {
                         "value": "SetNumberVariable"
                       },
-                      "parameters": ["FlashDuration", "=", "NewFlashDuration"]
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
                     }
                   ]
                 }
@@ -12807,7 +14031,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["False"]
+                      "parameters": [
+                        "False"
+                      ]
                     }
                   ]
                 },
@@ -12818,7 +14044,11 @@
                       "type": {
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -12826,7 +14056,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -12860,7 +14092,11 @@
                       "type": {
                         "value": "Flash::Flash::Stop"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -12894,7 +14130,11 @@
                       "type": {
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -12902,19 +14142,29 @@
                       "type": {
                         "value": "Montre"
                       },
-                      "parameters": ["Object", ""]
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetBooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "False", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "RemoveObjectTimer"
                       },
-                      "parameters": ["Object", "\"Flash_Visibility_Timer\""]
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Visibility_Timer\""
+                      ]
                     },
                     {
                       "type": {
@@ -12959,7 +14209,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["HalfPeriodTime"]
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
                     }
                   ]
                 }
@@ -12997,7 +14249,11 @@
                       "type": {
                         "value": "SetNumberVariable"
                       },
-                      "parameters": ["HalfPeriodTime", "=", "Value"]
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
                     }
                   ]
                 }
@@ -13065,7 +14321,11 @@
                       "type": {
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -13099,13 +14359,21 @@
                               "type": {
                                 "value": "ResetObjectTimer"
                               },
-                              "parameters": ["Object", "\"Flash_Color_Timer\""]
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Color_Timer\""
+                              ]
                             },
                             {
                               "type": {
                                 "value": "Flash::ToggleColorTint"
                               },
-                              "parameters": ["", "Object", "TintColor", ""]
+                              "parameters": [
+                                "",
+                                "Object",
+                                "TintColor",
+                                ""
+                              ]
                             }
                           ]
                         }
@@ -13128,7 +14396,11 @@
                               "type": {
                                 "value": "NumberVariable"
                               },
-                              "parameters": ["FlashDuration", ">", "0"]
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
                             },
                             {
                               "type": {
@@ -13147,7 +14419,11 @@
                               "type": {
                                 "value": "Flash::FlashColor::Stop"
                               },
-                              "parameters": ["Object", "Behavior", ""]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
                             }
                           ]
                         }
@@ -13188,7 +14464,11 @@
                         "inverted": true,
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -13207,19 +14487,31 @@
                       "type": {
                         "value": "ResetObjectTimer"
                       },
-                      "parameters": ["Object", "\"Flash_Color_Timer\""]
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Timer\""
+                      ]
                     },
                     {
                       "type": {
                         "value": "Flash::ToggleColorTint"
                       },
-                      "parameters": ["", "Object", "NewColorTint", ""]
+                      "parameters": [
+                        "",
+                        "Object",
+                        "NewColorTint",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetBooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -13231,19 +14523,30 @@
                       "type": {
                         "value": "ResetObjectTimer"
                       },
-                      "parameters": ["Object", "\"Flash_Color_Duration_Timer\""]
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Duration_Timer\""
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetStringVariable"
                       },
-                      "parameters": ["TintColor", "=", "NewColorTint"]
+                      "parameters": [
+                        "TintColor",
+                        "=",
+                        "NewColorTint"
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetNumberVariable"
                       },
-                      "parameters": ["FlashDuration", "=", "NewFlashDuration"]
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
                     }
                   ]
                 }
@@ -13290,7 +14593,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["False"]
+                      "parameters": [
+                        "False"
+                      ]
                     }
                   ]
                 },
@@ -13301,7 +14606,11 @@
                       "type": {
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -13309,7 +14618,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -13344,7 +14655,11 @@
                       "type": {
                         "value": "Flash::FlashColor::Stop"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -13379,7 +14694,11 @@
                       "type": {
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -13387,7 +14706,11 @@
                       "type": {
                         "value": "SetBooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "False", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
                     },
                     {
                       "type": {
@@ -13402,13 +14725,19 @@
                       "type": {
                         "value": "RemoveObjectTimer"
                       },
-                      "parameters": ["Object", "\"Flash_Color_Timer\""]
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Timer\""
+                      ]
                     },
                     {
                       "type": {
                         "value": "RemoveObjectTimer"
                       },
-                      "parameters": ["Object", "\"Flash_Color_Duration_Timer\""]
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Duration_Timer\""
+                      ]
                     }
                   ]
                 }
@@ -13445,7 +14774,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["HalfPeriodTime"]
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
                     }
                   ]
                 }
@@ -13484,7 +14815,11 @@
                       "type": {
                         "value": "SetNumberVariable"
                       },
-                      "parameters": ["HalfPeriodTime", "=", "Value"]
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
                     }
                   ]
                 }
@@ -13560,7 +14895,11 @@
                       "type": {
                         "value": "Flash::FlashOpacity::IsFlashing"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -13675,7 +15014,11 @@
                               "type": {
                                 "value": "NumberVariable"
                               },
-                              "parameters": ["FlashDuration", ">", "0"]
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
                             },
                             {
                               "type": {
@@ -13694,7 +15037,11 @@
                               "type": {
                                 "value": "Flash::FlashOpacity::Stop"
                               },
-                              "parameters": ["Object", "Behavior", ""]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
                             }
                           ]
                         }
@@ -13734,7 +15081,11 @@
                         "inverted": true,
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -13766,7 +15117,11 @@
                       "type": {
                         "value": "SetBooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -13787,13 +15142,21 @@
                       "type": {
                         "value": "SetNumberVariable"
                       },
-                      "parameters": ["FlashDuration", "=", "NewFlashDuration"]
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetNumberVariable"
                       },
-                      "parameters": ["TargetOpacity", "=", "NewTargetOpacity"]
+                      "parameters": [
+                        "TargetOpacity",
+                        "=",
+                        "NewTargetOpacity"
+                      ]
                     }
                   ]
                 }
@@ -13845,7 +15208,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["False"]
+                      "parameters": [
+                        "False"
+                      ]
                     }
                   ]
                 },
@@ -13856,7 +15221,11 @@
                       "type": {
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -13864,7 +15233,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -13898,7 +15269,11 @@
                       "type": {
                         "value": "Flash::FlashOpacity::Stop"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -13932,7 +15307,11 @@
                       "type": {
                         "value": "Flash::FlashOpacity::IsFlashing"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -13940,13 +15319,20 @@
                       "type": {
                         "value": "SetBooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "False", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "RemoveObjectTimer"
                       },
-                      "parameters": ["Object", "\"Flash_Color_Duration_Timer\""]
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Duration_Timer\""
+                      ]
                     },
                     {
                       "type": {
@@ -14013,7 +15399,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["HalfPeriodTime"]
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
                     }
                   ]
                 }
@@ -14051,7 +15439,11 @@
                       "type": {
                         "value": "SetNumberVariable"
                       },
-                      "parameters": ["HalfPeriodTime", "=", "Value"]
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
                     }
                   ]
                 }
@@ -14077,7 +15469,9 @@
               "value": "",
               "type": "Behavior",
               "label": "Opacity capability",
-              "extraInformation": ["OpacityCapability::OpacityBehavior"],
+              "extraInformation": [
+                "OpacityCapability::OpacityBehavior"
+              ],
               "choices": [],
               "name": "Opacity"
             },
@@ -14085,7 +15479,9 @@
               "value": "",
               "type": "Behavior",
               "label": "Tween Behavior (required)",
-              "extraInformation": ["Tween::TweenBehavior"],
+              "extraInformation": [
+                "Tween::TweenBehavior"
+              ],
               "choices": [],
               "name": "TweenBehavior"
             },
@@ -14153,7 +15549,11 @@
                       "type": {
                         "value": "Flash::FlashEffect::IsFlashing"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -14187,7 +15587,10 @@
                               "type": {
                                 "value": "ResetObjectTimer"
                               },
-                              "parameters": ["Object", "\"Flash_Effect_Timer\""]
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Effect_Timer\""
+                              ]
                             },
                             {
                               "type": {
@@ -14221,7 +15624,11 @@
                               "type": {
                                 "value": "NumberVariable"
                               },
-                              "parameters": ["FlashDuration", ">", "0"]
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
                             },
                             {
                               "type": {
@@ -14240,7 +15647,11 @@
                               "type": {
                                 "value": "Flash::FlashEffect::Stop"
                               },
-                              "parameters": ["Object", "Behavior", ""]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
                             }
                           ]
                         }
@@ -14291,13 +15702,21 @@
                       "type": {
                         "value": "Flash::FlashEffect::IsFlashing"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "StringVariable"
                       },
-                      "parameters": ["EffectName", "!=", "NewEffectName"]
+                      "parameters": [
+                        "EffectName",
+                        "!=",
+                        "NewEffectName"
+                      ]
                     }
                   ],
                   "actions": [
@@ -14305,7 +15724,11 @@
                       "type": {
                         "value": "Flash::FlashEffect::Stop"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -14317,7 +15740,11 @@
                         "inverted": true,
                         "value": "Flash::FlashEffect::IsFlashing"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -14329,7 +15756,11 @@
                           "type": {
                             "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
                           },
-                          "parameters": ["Object", "Effect", "NewEffectName"]
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "NewEffectName"
+                          ]
                         }
                       ],
                       "actions": [
@@ -14353,7 +15784,11 @@
                             "inverted": true,
                             "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
                           },
-                          "parameters": ["Object", "Effect", "NewEffectName"]
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "NewEffectName"
+                          ]
                         }
                       ],
                       "actions": [
@@ -14388,13 +15823,20 @@
                           "type": {
                             "value": "ResetObjectTimer"
                           },
-                          "parameters": ["Object", "\"Flash_Effect_Timer\""]
+                          "parameters": [
+                            "Object",
+                            "\"Flash_Effect_Timer\""
+                          ]
                         },
                         {
                           "type": {
                             "value": "SetBooleanVariable"
                           },
-                          "parameters": ["IsFlashing", "True", ""]
+                          "parameters": [
+                            "IsFlashing",
+                            "True",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -14417,13 +15859,21 @@
                       "type": {
                         "value": "SetNumberVariable"
                       },
-                      "parameters": ["FlashDuration", "=", "NewFlashDuration"]
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetStringVariable"
                       },
-                      "parameters": ["EffectName", "=", "NewEffectName"]
+                      "parameters": [
+                        "EffectName",
+                        "=",
+                        "NewEffectName"
+                      ]
                     }
                   ]
                 }
@@ -14469,7 +15919,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["False"]
+                      "parameters": [
+                        "False"
+                      ]
                     }
                   ]
                 },
@@ -14480,7 +15932,11 @@
                       "type": {
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -14488,7 +15944,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -14522,7 +15980,11 @@
                       "type": {
                         "value": "Flash::FlashEffect::Stop"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -14556,7 +16018,11 @@
                       "type": {
                         "value": "BooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "True", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -14564,13 +16030,20 @@
                       "type": {
                         "value": "SetBooleanVariable"
                       },
-                      "parameters": ["IsFlashing", "False", ""]
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "RemoveObjectTimer"
                       },
-                      "parameters": ["Object", "\"Flash_Effect_Timer\""]
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Effect_Timer\""
+                      ]
                     },
                     {
                       "type": {
@@ -14630,7 +16103,12 @@
                           "type": {
                             "value": "EffectCapability::EffectBehavior::EnableEffect"
                           },
-                          "parameters": ["Object", "Effect", "EffectName", ""]
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "EffectName",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -14668,7 +16146,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["HalfPeriodTime"]
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
                     }
                   ]
                 }
@@ -14706,7 +16186,11 @@
                       "type": {
                         "value": "SetNumberVariable"
                       },
-                      "parameters": ["HalfPeriodTime", "=", "Value"]
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
                     }
                   ]
                 }
@@ -14742,7 +16226,11 @@
                       "type": {
                         "value": "SetObjectVariableAsBoolean"
                       },
-                      "parameters": ["Object", "__Flash_EffectToggled", "False"]
+                      "parameters": [
+                        "Object",
+                        "__Flash_EffectToggled",
+                        "False"
+                      ]
                     }
                   ]
                 },
@@ -14753,7 +16241,11 @@
                       "type": {
                         "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
                       },
-                      "parameters": ["Object", "Effect", "EffectName"]
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName"
+                      ]
                     }
                   ],
                   "actions": [
@@ -14761,13 +16253,22 @@
                       "type": {
                         "value": "EffectCapability::EffectBehavior::EnableEffect"
                       },
-                      "parameters": ["Object", "Effect", "EffectName", ""]
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetObjectVariableAsBoolean"
                       },
-                      "parameters": ["Object", "__Flash_EffectToggled", "True"]
+                      "parameters": [
+                        "Object",
+                        "__Flash_EffectToggled",
+                        "True"
+                      ]
                     }
                   ]
                 },
@@ -14778,14 +16279,22 @@
                       "type": {
                         "value": "ObjectVariableAsBoolean"
                       },
-                      "parameters": ["Object", "__Flash_EffectToggled", "False"]
+                      "parameters": [
+                        "Object",
+                        "__Flash_EffectToggled",
+                        "False"
+                      ]
                     },
                     {
                       "type": {
                         "inverted": true,
                         "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
                       },
-                      "parameters": ["Object", "Effect", "EffectName"]
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName"
+                      ]
                     }
                   ],
                   "actions": [
@@ -14793,7 +16302,12 @@
                       "type": {
                         "value": "EffectCapability::EffectBehavior::EnableEffect"
                       },
-                      "parameters": ["Object", "Effect", "EffectName", "yes"]
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName",
+                        "yes"
+                      ]
                     }
                   ]
                 }
@@ -14824,7 +16338,9 @@
               "value": "",
               "type": "Behavior",
               "label": "Effect capability",
-              "extraInformation": ["EffectCapability::EffectBehavior"],
+              "extraInformation": [
+                "EffectCapability::EffectBehavior"
+              ],
               "choices": [],
               "name": "Effect"
             },
@@ -14901,7 +16417,9 @@
         "rotate",
         "angle"
       ],
-      "authorIds": ["gqDaZjCfevOOxBYkK6zlhtZnXCg1"],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
       "dependencies": [],
       "globalVariables": [],
       "sceneVariables": [],
@@ -15064,7 +16582,11 @@
                           "type": {
                             "value": "BooleanVariable"
                           },
-                          "parameters": ["ShakeForever", "True", ""]
+                          "parameters": [
+                            "ShakeForever",
+                            "True",
+                            ""
+                          ]
                         }
                       ],
                       "actions": [
@@ -16801,7 +18323,11 @@
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngle::IsShaking"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -16861,7 +18387,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -17053,7 +18581,11 @@
                           "type": {
                             "value": "BooleanVariable"
                           },
-                          "parameters": ["ShakeForever", "True", ""]
+                          "parameters": [
+                            "ShakeForever",
+                            "True",
+                            ""
+                          ]
                         }
                       ],
                       "actions": [
@@ -19165,7 +20697,11 @@
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -19225,7 +20761,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -19251,7 +20789,9 @@
               "value": "",
               "type": "Behavior",
               "label": "Scalable capability",
-              "extraInformation": ["ScalableCapability::ScalableBehavior"],
+              "extraInformation": [
+                "ScalableCapability::ScalableBehavior"
+              ],
               "choices": [],
               "name": "Scale"
             }
