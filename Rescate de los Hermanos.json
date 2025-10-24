@@ -893,6 +893,22 @@
         "metadata": "",
         "name": "SueloNivel4.tmj",
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "../../../../Downloads/SueloNivel5.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "../../../../Downloads/SueloNivel5.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "SueloNivel5.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "SueloNivel5.json",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -11986,9 +12002,33 @@
       "objectsGroups": [],
       "variables": [],
       "instances": [],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "SueloNivel5",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "SueloNivel5.json",
+            "tilesetJsonFile": "suelo.json",
+            "tilemapAtlasImage": "suelo.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "SueloNivel5"
+          }
+        ]
       },
       "events": [],
       "layers": [
@@ -12515,7 +12555,20 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.7291666666666666,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
       "objectsGroups": [],
       "variables": [],
       "instances": [],
