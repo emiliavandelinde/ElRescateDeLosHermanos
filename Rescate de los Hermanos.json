@@ -9863,7 +9863,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9673796392515358,
+        "zoomFactor": 0.7339999952311588,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -9991,8 +9991,8 @@
           "name": "Fantasma",
           "persistentUuid": "8b17ba3e-9747-453c-9c68-1d6548962912",
           "width": 0,
-          "x": 2053,
-          "y": 293,
+          "x": 2035,
+          "y": 332,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -10039,8 +10039,8 @@
           "name": "Plataforma_Levitadora",
           "persistentUuid": "37199bca-0028-4ac6-bfb4-8ccff48c58e5",
           "width": 0,
-          "x": 3859,
-          "y": 127,
+          "x": 3864,
+          "y": 184,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -10168,8 +10168,8 @@
           "name": "Cristal",
           "persistentUuid": "4e1ceda7-c048-49a5-9f12-0e828bee7da9",
           "width": 40,
-          "x": 4398,
-          "y": 187,
+          "x": 4380,
+          "y": 170,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -10184,8 +10184,8 @@
           "name": "Posicion_Cristal",
           "persistentUuid": "eab89995-814f-4792-b7f2-db58c8706d90",
           "width": 0,
-          "x": 4390,
-          "y": 186,
+          "x": 4380,
+          "y": 170,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -10218,7 +10218,7 @@
           "width": 0,
           "x": 4707,
           "y": -33,
-          "zOrder": 40,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10327,8 +10327,8 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "8574fdc4-367f-465f-bde8-98c9b90b8267",
           "width": 0,
-          "x": 1835,
-          "y": 313,
+          "x": 1761,
+          "y": 358,
           "zOrder": 47,
           "numberProperties": [
             {
@@ -10348,8 +10348,8 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "39944f60-71cf-4504-8977-d8c6b37e4436",
           "width": 0,
-          "x": 2404,
-          "y": 311,
+          "x": 2326,
+          "y": 361,
           "zOrder": 48,
           "numberProperties": [
             {
@@ -10525,49 +10525,17 @@
           "initialVariables": []
         },
         {
-          "angle": 265,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "e2534ce4-bc41-49c6-b1f1-a7ff8ad0f5af",
+          "name": "Fantasma",
+          "persistentUuid": "d5c7a190-a8a5-4b77-be0f-63659dc2e606",
           "width": 0,
-          "x": 1203,
-          "y": 97,
-          "zOrder": 58,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 93,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "520feac8-2db6-432b-833b-9d5dc591abcf",
-          "width": 0,
-          "x": 954,
-          "y": 94,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 85,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "9413f9f8-5fce-474e-b2c4-58ef2a62db93",
-          "width": 0,
-          "x": 1418,
-          "y": 11,
-          "zOrder": 60,
+          "x": 1332,
+          "y": 359,
+          "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10578,34 +10546,23 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Fantasma",
-          "persistentUuid": "d5c7a190-a8a5-4b77-be0f-63659dc2e606",
-          "width": 0,
-          "x": 1340,
-          "y": 334,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 273,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "Flecha_Direccion",
           "persistentUuid": "e1e279da-0905-4442-8b34-88c4be618745",
           "width": 0,
-          "x": 1560,
-          "y": 354,
+          "x": 1504,
+          "y": 383,
           "zOrder": 63,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 84,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -10613,10 +10570,15 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "e847787c-cf9a-43f7-8a69-a1953f6599ea",
           "width": 0,
-          "x": 1161,
-          "y": 354,
+          "x": 1191,
+          "y": 377,
           "zOrder": 64,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -10662,7 +10624,7 @@
           "persistentUuid": "fe1a2184-4fb1-4bdd-ad65-df31548d3ae4",
           "width": 0,
           "x": 2025,
-          "y": -54,
+          "y": -50,
           "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
@@ -10685,7 +10647,7 @@
           "initialVariables": []
         },
         {
-          "angle": 267,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -10696,12 +10658,17 @@
           "x": 1900,
           "y": -34,
           "zOrder": 69,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 95,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -10709,10 +10676,15 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "68850d94-2216-43dd-bf5b-bf48da88c30b",
           "width": 0,
-          "x": 1692,
-          "y": -34,
+          "x": 1663,
+          "y": -37,
           "zOrder": 70,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -10741,41 +10713,9 @@
           "name": "Murcielago",
           "persistentUuid": "9c174438-9265-419f-bce7-8e1c5a45a09b",
           "width": 0,
-          "x": 2003,
-          "y": 125,
+          "x": 1992,
+          "y": 113,
           "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 93,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "09971ac0-a6cb-41ac-af98-7de31f057f66",
-          "width": 0,
-          "x": 1915,
-          "y": 139,
-          "zOrder": 73,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 265,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "8cd22b4d-8e49-4ae4-b991-a8023c844006",
-          "width": 0,
-          "x": 2528,
-          "y": 148,
-          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10808,38 +10748,6 @@
           "x": 2987,
           "y": 253,
           "zOrder": 78,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 274,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "87ba9127-d859-4bac-9bb1-5be50501c5db",
-          "width": 0,
-          "x": 3256,
-          "y": 263,
-          "zOrder": 79,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 82,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "a99d3567-8955-46c9-aaef-eac524627853",
-          "width": 0,
-          "x": 2890,
-          "y": 269,
-          "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10909,7 +10817,7 @@
           "initialVariables": []
         },
         {
-          "angle": 273,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -10917,15 +10825,20 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "379cd750-d899-45bd-bc5b-4e093cb8001d",
           "width": 0,
-          "x": 3654,
-          "y": 428,
+          "x": 3639,
+          "y": 432,
           "zOrder": 85,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 86,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -10933,10 +10846,15 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "f64ce0ff-c0f0-4171-bc1b-af4797cde811",
           "width": 0,
-          "x": 2925,
-          "y": 446,
+          "x": 2915,
+          "y": 430,
           "zOrder": 86,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -10973,7 +10891,7 @@
           "initialVariables": []
         },
         {
-          "angle": 185,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -10981,10 +10899,15 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "bdaafde7-4827-451c-8068-028669e6bb1f",
           "width": 0,
-          "x": 3875,
-          "y": -12,
+          "x": 3883,
+          "y": -5,
           "zOrder": 89,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -11021,39 +10944,7 @@
           "initialVariables": []
         },
         {
-          "angle": 267,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "e6c5ed00-e95b-4b97-b21d-bc50af46509f",
-          "width": 0,
-          "x": 4458,
-          "y": 105,
-          "zOrder": 92,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 86,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "43c5b8de-b374-4c58-80b6-8d6735c364cc",
-          "width": 0,
-          "x": 4220,
-          "y": 110,
-          "zOrder": 93,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 93,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -11064,12 +10955,17 @@
           "x": 213,
           "y": 400,
           "zOrder": 96,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 274,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -11080,7 +10976,12 @@
           "x": 606,
           "y": 400,
           "zOrder": 97,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -11096,22 +10997,6 @@
           "x": 350,
           "y": 370,
           "zOrder": 98,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 268,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "c7851199-93fb-4faf-8d38-339133cdb307",
-          "width": 0,
-          "x": 1643,
-          "y": 6,
-          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11181,7 +11066,7 @@
           "initialVariables": []
         },
         {
-          "angle": 274,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -11189,15 +11074,20 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "8bc8b803-9c9f-41ba-b340-e3af7a254114",
           "width": 0,
-          "x": 3765,
-          "y": 34,
+          "x": 3803,
+          "y": 31,
           "zOrder": 106,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 93,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -11208,7 +11098,12 @@
           "x": 3518,
           "y": 26,
           "zOrder": 107,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -11229,7 +11124,7 @@
           "initialVariables": []
         },
         {
-          "angle": 92,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -11237,10 +11132,15 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "feee5c4f-e6ad-4a4a-a557-8620bfc74178",
           "width": 0,
-          "x": 2125,
-          "y": 60,
+          "x": 2159,
+          "y": 62,
           "zOrder": 109,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -11261,39 +11161,7 @@
           "initialVariables": []
         },
         {
-          "angle": 266,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "1c96a13c-c99c-4a7d-a632-4e7783ba08c4",
-          "width": 0,
-          "x": 2861,
-          "y": -7,
-          "zOrder": 111,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 91,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flecha_Direccion",
-          "persistentUuid": "28a2656f-615e-4336-9ef9-dc49d9a3a24c",
-          "width": 0,
-          "x": 2442,
-          "y": -4,
-          "zOrder": 112,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 274,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -11301,10 +11169,15 @@
           "name": "Flecha_Direccion",
           "persistentUuid": "9524abbf-027f-4de7-9d79-3f120a29761f",
           "width": 0,
-          "x": 2433,
-          "y": 63,
+          "x": 2364,
+          "y": 66,
           "zOrder": 113,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
