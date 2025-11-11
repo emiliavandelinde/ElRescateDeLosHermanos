@@ -2904,9 +2904,9 @@
       "behaviors": [
         {
           "isFolded": true,
-          "maxSpeed": 60,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "maxSpeed": 60,
           "acceleration": 150,
           "canGoDownFromJumpthru": false,
           "deceleration": 300,
@@ -13474,7 +13474,7 @@
                   "parameters": [
                     "Puntos",
                     ">=",
-                    "10"
+                    "15"
                   ]
                 }
               ],
